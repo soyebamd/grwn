@@ -27,14 +27,26 @@
     },
     "image_banner_3w4TrP": {
       "type": "image-banner",
+      "blocks": {
+        "text_Pt3yjH": {
+          "type": "text",
+          "settings": {
+            "text": "Feature Collection",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "text_Pt3yjH"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_5.jpg",
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-right",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-10be726e-fe68-48d6-88af-1bfd5914470a",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -65,8 +77,8 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 36
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     }
   },
