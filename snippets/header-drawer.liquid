@@ -12,7 +12,14 @@
       aria-label="{{ 'sections.header.menu' | t }}"
     >
       <span>
-     MENU  {% render 'icon-hamburger' %}
+
+      <h3 class="h1">
+     MENU 
+     </h3>
+     {% comment %}
+      {% render 'icon-hamburger' %}
+     {% endcomment %}
+    
         {% render 'icon-close' %}
       </span>
     </summary>
