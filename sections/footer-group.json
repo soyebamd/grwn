@@ -4,19 +4,6 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "image_xhetUX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/footer_logo.svg",
-            "image_width": 290,
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_xhetUX"
-      ],
       "settings": {
         "color_scheme": "scheme-5",
         "newsletter_enable": false,
