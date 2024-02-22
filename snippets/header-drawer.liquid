@@ -329,8 +329,8 @@
 
             closeButton.addEventListener('click', function () {
               console.log('clicked')
-                drawerContainer.classList.remove('open');
-                drawerContainer.classList.add('closed');
+                drawerContainer.removeAttribute('open')
+               // drawerContainer.classList.add('closed');
             });
         });
     </script>
