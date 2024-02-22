@@ -27,9 +27,21 @@
     },
     "image_banner_3w4TrP": {
       "type": "image-banner",
+      "blocks": {
+        "text_Pt3yjH": {
+          "type": "text",
+          "settings": {
+            "text": "Feature Collection",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Pt3yjH"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_5.jpg",
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
