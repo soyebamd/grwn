@@ -41,7 +41,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_5.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 20,
         "image_height": "medium",
         "desktop_content_position": "bottom-right",
         "show_text_box": true,
