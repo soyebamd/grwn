@@ -4,6 +4,9 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "custom_css": [
+        ".footer {border-top: solid 1px #000;}"
+      ],
       "settings": {
         "color_scheme": "scheme-5",
         "newsletter_enable": false,
