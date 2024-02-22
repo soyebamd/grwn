@@ -29,17 +29,6 @@
 <div id="close">CLOSTE TEST
 </div>
 
-<script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var closeButton = document.getElementById('close');
-            var drawerContainer = document.getElementById('Details-menu-drawer-container');
-
-            closeButton.addEventListener('click', function () {
-                drawerContainer.classList.remove('open');
-                drawerContainer.classList.add('closed');
-            });
-        });
-    </script>
       <div class="menu-drawer__inner-container">
         <div class="menu-drawer__navigation-container">
           <nav class="menu-drawer__navigation">
@@ -332,3 +321,15 @@
     </div>
   </details>
 </header-drawer>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var closeButton = document.getElementById('close');
+            var drawerContainer = document.getElementById('Details-menu-drawer-container');
+
+            closeButton.addEventListener('click', function () {
+                drawerContainer.classList.remove('open');
+                drawerContainer.classList.add('closed');
+            });
+        });
+    </script>
