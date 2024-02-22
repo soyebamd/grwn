@@ -1,30 +1,83 @@
+@font-face {
+  font-family: "abc_walter_neueextrafett";
+  src: url("https://cdn.shopify.com/s/files/1/0683/4008/9055/files/abcwalterneue-extrafett-webfont_0cc86624-6f1f-4743-920b-52601b603604.woff2?v=1705829991")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0683/4008/9055/files/abcwalterneue-extrafett-webfont_c86c0458-4a64-4e5a-846a-579780500f98.woff?v=1705829991")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abc_walter_neueXfettkursiv";
+  src: url("https://cdn.shopify.com/s/files/1/0683/4008/9055/files/abcwalterneue-extrafettkursiv-webfont_9bb1d20b-2dd8-41ae-8c11-e14de02a3d07.woff2?v=1705829991")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0683/4008/9055/files/abcwalterneue-extrafettkursiv-webfont_99f8be47-d552-49cc-8811-c0a0e8150483.woff?v=1705829991")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abc_diatype_semi-monobold";
+  src: url("https://cdn.shopify.com/s/files/1/0683/4008/9055/files/abc-diatype-semi-mono-bold-webfont.woff2?v=1705821546")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0683/4008/9055/files/abc-diatype-semi-mono-bold-webfont.woff?v=1705821546")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+h2.title {
+  font-family: "abc_diatype_semi-monobold";
+  font-size: 24px;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 13px;
+}
+#landing-page {
+  font-family: "abc_diatype_semi-monobold";
+}
+.form__message p {
+  font-size: 24px;
+  font-family: "abc_diatype_semi-monobold";
+  line-height: normal;
+  margin: 0;
+  letter-spacing: normal;
+}
 
+body {
+  font-family: "abc_diatype_semi-monobold";
+}
 
-.header__icon--menu[aria-expanded=true]:before { opacity:0; }
+.header__icon--menu[aria-expanded="true"]:before {
+  opacity: 0;
+}
 /* 
 #menu-drawer, #menu-drawer *{ background:transparent!important; } */
 
-.menu-drawer{background: rgba(255, 255, 255, 0.2)!important;
-
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(6px);
--webkit-backdrop-filter: blur(6px);
-border: 1px solid rgba(255, 255, 255, 0.3);}
-
-@media screen and (min-width: 750px){
 .menu-drawer {
-    width: 50%!important;
-}}
+  background: rgba(255, 255, 255, 0.2) !important;
 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (min-width: 750px) {
+  .menu-drawer {
+    width: 50% !important;
+  }
+}
 
 .menu-drawer__menu-item {
-    padding: 1.1rem 3rem;
-    text-decoration: none;
-    color: var(--Purple, #5930D2);
+  padding: 1.1rem 3rem;
+  text-decoration: none;
+  color: var(--Purple, #5930d2);
 
-font-size: 4.8rem!important;
-font-style: normal;
-font-weight: 900;
-line-height: 0%; /* 0px */
-text-transform: uppercase;
+  font-size: 4.8rem !important;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 0%; /* 0px */
+  text-transform: uppercase;
 }
