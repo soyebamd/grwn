@@ -207,9 +207,10 @@
             {%- endif -%}
           </div>
 
- {%- if !show_quick_add -%}
+            {%- if !show_quick_add -%}
+
          <a href="{{ card_product.url }}" class="button w-100"> VIEW PRODUCT </a>
-{% end  %}
+            {% endif  %}
 
         </div>
         {%- if show_quick_add -%}
