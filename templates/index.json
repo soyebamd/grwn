@@ -4,6 +4,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+        "banner_link": "",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -41,6 +42,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_5.jpg",
+        "banner_link": "shopify:\/\/collections\/featured-collection",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "bottom-right",
