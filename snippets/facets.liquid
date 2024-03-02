@@ -7,6 +7,7 @@
   - enable_sorting: {Boolean} Show sorting when true
   - filter_type: {String} Type of filter
   - paginate: {Object}
+  - card_collection: {Object} Collection Liquid object
 
   Usage:
   {% render 'facets', results: collection, enable_filtering: true, enable_sorting: true, filter_type: 'vertical', paginate: paginate %}
@@ -1201,6 +1202,8 @@
 <section class="collection-list">
 
  {{card_collection}} COLLECTION 
+
+ {% card_collection  %}
 
 
 </section>
