@@ -10,6 +10,17 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "blocks": {
+        "featured_collection_d6UVpd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_d6UVpd"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 3,
