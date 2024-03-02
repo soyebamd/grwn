@@ -1,0 +1,94 @@
+
+<section class="collection-list">
+<details id="Details-filter.v.availability-template--17436186345695__product-grid" class=" facets__disclosure-vertical js-filter" data-index="1" open="">
+                    <summary class="facets__summary caption-large focus-offset" aria-label="Availability (0 selected)" role="button" aria-expanded="true" aria-controls="Facet-1-template--17436186345695__product-grid">
+                      <div>
+                        <span class="facets__summary-label">Filter
+<span class="facets__selected no-js-hidden hidden">
+                              (0)</span></span><svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+</path></svg>
+
+                      </div>
+                    </summary>
+
+                    
+                    <div id="Facet-1-template--17436186345695__product-grid" class="parent-display facets__display-vertical"><fieldset class="facets-wrap parent-wrap  facets-wrap-vertical">
+                       
+                        <ul class="facets-layout-list facets__list--vertical list-unstyled no-js-hidden" role="list">
+
+
+                        <input type="hidden" id="collection-handle" value="tag-{{ collection.handle }}"> 
+                        
+
+{%- for block in section.blocks -%}
+
+    {% assign collection_handle = block.settings.collection %}
+    {% assign collection = collections[collection_handle] %}
+
+
+
+
+
+                            <li class="list-menu__item facets__item">
+
+                              <label for="tag-{{ collection.handle }}" class="facets__label facet-checkbox">
+
+                                <input type="checkbox" name="collection_url" value="{{ collection.url }}" id="tag-{{ collection.handle }}">
+
+                                
+                                  <svg width="1.6rem" height="1.6rem" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                                    <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
+                                  </svg>
+
+                                  <svg aria-hidden="true" class="icon icon-checkmark" width="1.1rem" height="0.7rem" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                                  </svg>
+                                
+
+                                <span class="facet-checkbox__text" aria-hidden="true">{{ collection.title }}</span>
+                                <span class="visually-hidden">{{ collection.title }}</span>
+                              </label>
+                            </li>
+
+                            {%- endfor -%}
+
+                           </ul>
+                       
+                      </fieldset>
+                    </div>
+                  </details>
+
+
+
+
+</section>
+
+<script>
+
+const collectionHandle = document.querySelector('#collection-handle');
+
+const checkboxes = document.querySelectorAll('[name="collection_url"]');
+
+
+
+checkboxes.forEach(function(checkbox) {
+
+if(checkbox.id == collectionHandle.value ){
+  checkbox.checked = true;
+}
+
+console.log(checkbox.id == collectionHandle.value);
+
+    checkbox.addEventListener('change', function() {
+        // Check if the checkbox is checked
+        if (checkbox.checked) {
+            // Redirect to the URL specified in the checkbox value
+            window.location.href = checkbox.value;
+        }
+    });
+});
+
+
+
+</script>
