@@ -1279,11 +1279,11 @@ const checkboxes = document.querySelectorAll('[name="collection_url"]');
 
 checkboxes.forEach(function(checkbox) {
 
-if(checkbox.id == collectionHandle.id ){
+if(checkbox.id == collectionHandle.value ){
   this.checked = true;
 }
 
-console.log(collectionHandle.id  +"sdfsd"+checkbox.id);
+console.log(collectionHandle.value  +"sdfsd"+checkbox.id);
 
     checkbox.addEventListener('change', function() {
         // Check if the checkbox is checked
