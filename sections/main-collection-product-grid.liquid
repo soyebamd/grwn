@@ -110,6 +110,10 @@
           %}
 
           {{ card_collection }}
+
+            {%- for block in section.blocks -%}
+{{block.settings.collection}}
+            {% endfor %}
         </aside>
       {%- endif -%}
 
