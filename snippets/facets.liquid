@@ -1203,9 +1203,12 @@
 
 
 
- {%- for block in section.blocks -%}
-           Getting collections tag     {{block.settings.collection}}
-            {% endfor %}
+{%- for block in section.blocks -%}
+    {% assign collection_handle = block.settings.collection %}
+    {% assign collection = collections[collection_handle] %}
+    <a href="{{ collection.url }}">{{ collection.title }}</a>
+{%- endfor -%}
+
 
 
 </section>
