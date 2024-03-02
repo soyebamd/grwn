@@ -105,7 +105,8 @@
             enable_filtering: section.settings.enable_filtering,
             enable_sorting: section.settings.enable_sorting,
             filter_type: section.settings.filter_type,
-            paginate: paginate
+            paginate: paginate,
+            card_collection: block.settings.collection
           %}
         </aside>
       {%- endif -%}
@@ -163,7 +164,8 @@
                     show_rating: section.settings.show_rating,
                     lazy_load: lazy_load,
                     show_quick_add: section.settings.enable_quick_add,
-                    section_id: section.id
+                    section_id: section.id,
+                    
                   %}
                 </li>
               {%- endfor -%}
