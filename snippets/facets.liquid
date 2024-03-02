@@ -1276,9 +1276,11 @@ const checkboxes = document.querySelectorAll('[name="collection_url"]');
 
 checkboxes.forEach(function(checkbox) {
 
-if(checkbox.id == "tag-"+{{collection.handles}}){
+if(checkbox.id == "tag-"+{{ collection.handles }}){
   this.checked = true;
 }
+
+console.log({{ collection.handles }} +"sdfsd"+checkbox.id);
 
     checkbox.addEventListener('change', function() {
         // Check if the checkbox is checked
