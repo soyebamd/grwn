@@ -1271,17 +1271,19 @@
 
 <script>
 
+const collectionHandle = document.querySelector('#collection-handle');
+
 const checkboxes = document.querySelectorAll('[name="collection_url"]');
 
 
 
 checkboxes.forEach(function(checkbox) {
 
-// if(checkbox.id == "tag-"+{{ collection.handles }}){
-//   this.checked = true;
-// }
+if(checkbox.id == collectionHandle.id ){
+  this.checked = true;
+}
 
-console.log({{ collection.handles }} +"sdfsd"+checkbox.id);
+console.log(collectionHandle.id  +"sdfsd"+checkbox.id);
 
     checkbox.addEventListener('change', function() {
         // Check if the checkbox is checked
