@@ -1235,6 +1235,7 @@
 
 
                             <li class="list-menu__item facets__item">
+
                               <label for="tag-{{ collection.handle }}" class="facets__label facet-checkbox">
 
                                 <input type="checkbox" name="collection_url" value="{{ collection.url }}" id="tag-{{ collection.handle }}">
@@ -1266,3 +1267,22 @@
 
 
 </section>
+
+<script>
+
+const checkboxes = document.querySelectorAll('input[type="checkbox"][name="collection_url"]');
+
+
+checkboxes.forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+        // Check if the checkbox is checked
+        if (checkbox.checked) {
+            // Redirect to the URL specified in the checkbox value
+            window.location.href = checkbox.value;
+        }
+    });
+});
+
+
+
+</script>
