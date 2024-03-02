@@ -1202,11 +1202,25 @@
 <section class="collection-list">
 
 
+<summary class="facets__summary caption-large focus-offset" aria-label="Availability (0 selected)" role="button" aria-expanded="true" aria-controls="Facet-1-template--17436186345695__product-grid">
+                      <div>
+                        <span class="facets__summary-label">Filter
+<span class="facets__selected no-js-hidden hidden">
+                              (0)</span></span><svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+</path></svg>
+
+                      </div>
+                    </summary>
+
+
 
 {%- for block in section.blocks -%}
+
     {% assign collection_handle = block.settings.collection %}
     {% assign collection = collections[collection_handle] %}
     <a href="{{ collection.url }}">{{ collection.title }}</a>
+
 {%- endfor -%}
 
 
