@@ -100,6 +100,11 @@
           id="main-collection-filters"
           data-id="{{ section.id }}"
         >
+
+        
+        
+
+
           {% render 'facets',
             results: collection,
             enable_filtering: section.settings.enable_filtering,
@@ -109,11 +114,9 @@
             card_collection: section.blocks.settings.collection
           %}
 
-          {{ card_collection }}
+        
 
-            {%- for block in section.blocks -%}
-{{block.settings.collection}}
-            {% endfor %}
+           
         </aside>
       {%- endif -%}
 

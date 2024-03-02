@@ -1205,5 +1205,9 @@
 
 {{ filter_type  }}
 
+ {%- for block in section.blocks -%}
+                {{block.settings.collection}}
+            {% endfor %}
+
 
 </section>
