@@ -1280,10 +1280,10 @@ const checkboxes = document.querySelectorAll('[name="collection_url"]');
 checkboxes.forEach(function(checkbox) {
 
 if(checkbox.id == collectionHandle.value ){
-  this.checked = true;
+  checkbox.checked = true;
 }
 
-console.log(collectionHandle.value  +" == " +checkbox.id);
+console.log(checkbox.id == collectionHandle.value);
 
     checkbox.addEventListener('change', function() {
         // Check if the checkbox is checked
