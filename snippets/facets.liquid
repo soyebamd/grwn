@@ -1273,7 +1273,13 @@
 const checkboxes = document.querySelectorAll('[name="collection_url"]');
 
 
+
 checkboxes.forEach(function(checkbox) {
+
+if(checkbox.id == "tag-"+{{colleciton.handle}}){
+  this.checked = true;
+}
+
     checkbox.addEventListener('change', function() {
         // Check if the checkbox is checked
         if (checkbox.checked) {
