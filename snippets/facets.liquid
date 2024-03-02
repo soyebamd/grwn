@@ -1217,9 +1217,27 @@
                        
                         <ul class="facets-layout-list facets__list--vertical list-unstyled no-js-hidden" role="list">
 
+
+                        
+
+{%- for block in section.blocks -%}
+
+    {% assign collection_handle = block.settings.collection %}
+    {% assign collection = collections[collection_handle] %}
+    {% comment %}
+    
+    <a href="{{ collection.url }}">{{ collection.title }}</a>
+
+  esthetic-ignore
+    {% endcomment %}
+
+
+
+
                             <li class="list-menu__item facets__item">
                               <label for="Filter-filter.v.availability-1" class="facets__label facet-checkbox">
-                                <input type="checkbox" name="filter.v.availability" value="1" id="Filter-filter.v.availability-1">
+
+                                <input type="checkbox" name="collection_name" value="{{ collection.url }}" id="Filter-filter.v.availability-1">
 
                                 
                                   <svg width="1.6rem" height="1.6rem" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
@@ -1231,10 +1249,12 @@
                                   </svg>
                                 
 
-                                <span class="facet-checkbox__text" aria-hidden="true">In stock (2)</span>
-                                <span class="visually-hidden">In stock (2 products)</span>
+                                <span class="facet-checkbox__text" aria-hidden="true">{{ collection.title }}</span>
+                                <span class="visually-hidden">{{ collection.title }}</span>
                               </label>
                             </li>
+
+                            {%- endfor -%}
 
                            </ul>
                        
@@ -1242,15 +1262,6 @@
                     </div>
                   </details>
 
-
-
-{%- for block in section.blocks -%}
-
-    {% assign collection_handle = block.settings.collection %}
-    {% assign collection = collections[collection_handle] %}
-    <a href="{{ collection.url }}">{{ collection.title }}</a>
-
-{%- endfor -%}
 
 
 
