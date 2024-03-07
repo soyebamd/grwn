@@ -51,10 +51,22 @@
             "text": "Feature Collection",
             "text_style": "caption-with-letter-spacing"
           }
+        },
+        "buttons_wannqT": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
-        "text_Pt3yjH"
+        "text_Pt3yjH",
+        "buttons_wannqT"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_5.jpg",
