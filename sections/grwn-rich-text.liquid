@@ -72,19 +72,6 @@
 
 
 
-{%- when 'image_picker' -%}
-
-     <div
-                class="img_text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                {{ block.shopify_attributes }}
-                {% if settings.animations_reveal_on_scroll %}
-                  data-cascade
-                  style="--animation-order: {{ forloop.index }};"
-                {% endif %}
-              >
-               ere {{ block.settings.image | image_url | img_tag }}
-
-              </div>
 
             {%- when 'caption' -%}
               <p
@@ -142,6 +129,24 @@
                   </a>
                 {%- endif -%}
               </div>
+
+
+              
+{%- when 'image_picker' -%}
+
+     <div
+                class="img_text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+              >
+                {{ block.settings.image | image_url | img_tag }}
+
+              </div>
+
+              
               </div>
           {%- endcase -%}
 
