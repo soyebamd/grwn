@@ -37,10 +37,81 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "grwn_rich_text_8cBK7n": {
+      "type": "grwn-rich-text",
+      "blocks": {
+        "heading_fWFL49": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR DIAMONDS",
+            "heading_size": "h1"
+          }
+        },
+        "text_RcTWDm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Of course, just because something is true does not mean it is notastonishing, improbable, or even inconceivable. Everything you will ever touch is made of atoms. A knife’s edge, a mirror’sglass, a lover’s shoulder—all atoms. The source of the atoms is not amatter of scientific debate, though it sounds almost too magical to bebelieved: nearly everything that we are came from stars. Of course, justbecause something is true does not mean it is not astonishing, improbable,or even inconceivable. A diamond is made up of just one kind of atom, manytimes over: carbon. Its complete chemical formula is exquisitely simple: C. Yet, as a matter of chemical fact, the same carbon atoms, differentlyarranged, yield not a sparkling diamond, but gray pencil lead. The diamondis in the details. Yet, as a matter of chemical fact, the same.<\/p>"
+          }
+        },
+        "button_4VWAJB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fWFL49",
+        "text_RcTWDm",
+        "button_4VWAJB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "grwn_rich_text_63HGyJ": {
+      "type": "grwn-rich-text",
+      "blocks": {
+        "button_hrngPG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_hrngPG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "grwn_rich_text_AWm97r"
+    "grwn_rich_text_AWm97r",
+    "grwn_rich_text_8cBK7n",
+    "grwn_rich_text_63HGyJ"
   ]
 }
