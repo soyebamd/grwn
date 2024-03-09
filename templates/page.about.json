@@ -58,8 +58,8 @@
           "type": "image_picker",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg",
-            "padding_top": 56,
-            "padding_bottom": 84
+            "padding_top": 52,
+            "padding_bottom": 52
           }
         }
       },
