@@ -20,7 +20,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
-        "video": "shopify:\/\/files\/videos\/Diamonds_02 (1).mp4",
+        "show_video": true,
         "banner_link": "#",
         "image_overlay_opacity": 0,
         "image_height": "large",
@@ -71,6 +71,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_5.jpg",
+        "show_video": false,
         "banner_link": "shopify:\/\/collections\/featured-collection",
         "image_overlay_opacity": 0,
         "image_height": "medium",
