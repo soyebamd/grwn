@@ -91,28 +91,6 @@
   {% endif %} {% endcomment %}
 
 
-  <div id="video">
-
-
-<noscript>
-  <div
-    class="video-section__media"
-    
-      style="--ratio-percent: 56.25%;"
-    
-  ><video playsinline="playsinline" loop="loop" autoplay="autoplay" preload="metadata" poster="//shopjhdesign.com/cdn/shop/files/preview_images/f4b25ae0b716475197c6f738efbb905e.thumbnail.0000000000_1100x.jpg?v=1698641286"><source src="https://cdn.shopify.com/videos/c/vp/f4b25ae0b716475197c6f738efbb905e/f4b25ae0b716475197c6f738efbb905e.HD-720p-4.5Mbps-20024991.mp4" type="video/mp4"><img src="//shopjhdesign.com/cdn/shop/files/preview_images/f4b25ae0b716475197c6f738efbb905e.thumbnail.0000000000_1100x.jpg?v=1698641286"></video>
-</div>
-</noscript>
-
-
-
-<video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="metadata" poster="//shopjhdesign.com/cdn/shop/files/preview_images/f4b25ae0b716475197c6f738efbb905e.thumbnail.0000000000_1100x.jpg?v=1698641286"><source src="https://cdn.shopify.com/videos/c/vp/f4b25ae0b716475197c6f738efbb905e/f4b25ae0b716475197c6f738efbb905e.HD-720p-4.5Mbps-20024991.mp4" type="video/mp4"><img src="//shopjhdesign.com/cdn/shop/files/preview_images/f4b25ae0b716475197c6f738efbb905e.thumbnail.0000000000_1100x.jpg?v=1698641286"></video>
-
-
-
-
-
-</div>
 
 
   {%- if section.settings.image != blank -%}
@@ -142,6 +120,36 @@
           fetchpriority: fetch_priority
       }}
     </div>
+{% if  section.settings.video  %}
+
+
+
+  <div id="video">
+
+
+<noscript>
+  <div
+    class="video-section__media"
+    
+      style="--ratio-percent: 56.25%;"
+    
+  ><video playsinline="playsinline" loop="loop" autoplay="autoplay" preload="metadata" poster="//shopjhdesign.com/cdn/shop/files/preview_images/f4b25ae0b716475197c6f738efbb905e.thumbnail.0000000000_1100x.jpg?v=1698641286"><source src="https://cdn.shopify.com/videos/c/vp/f4b25ae0b716475197c6f738efbb905e/f4b25ae0b716475197c6f738efbb905e.HD-720p-4.5Mbps-20024991.mp4" type="video/mp4"><img src="//shopjhdesign.com/cdn/shop/files/preview_images/f4b25ae0b716475197c6f738efbb905e.thumbnail.0000000000_1100x.jpg?v=1698641286"></video>
+</div>
+</noscript>
+
+
+
+<video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="metadata" poster="//shopjhdesign.com/cdn/shop/files/preview_images/f4b25ae0b716475197c6f738efbb905e.thumbnail.0000000000_1100x.jpg?v=1698641286"><source src="https://cdn.shopify.com/videos/c/vp/f4b25ae0b716475197c6f738efbb905e/f4b25ae0b716475197c6f738efbb905e.HD-720p-4.5Mbps-20024991.mp4" type="video/mp4"><img src="//shopjhdesign.com/cdn/shop/files/preview_images/f4b25ae0b716475197c6f738efbb905e.thumbnail.0000000000_1100x.jpg?v=1698641286"></video>
+
+
+
+
+
+</div>
+
+
+{% endif %}
+
   {%- elsif section.settings.image_2 == blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -246,6 +254,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-banner.settings.image.label"
+    },
+     {
+      "type": "video",
+      "id": "video",
+      "label": "t:sections.video.settings.video.label"
     },
     {
       "type": "image_picker",
