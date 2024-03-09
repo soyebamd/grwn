@@ -20,6 +20,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+        "video": "shopify:\/\/files\/videos\/Diamonds_02 (1).mp4",
         "banner_link": "#",
         "image_overlay_opacity": 0,
         "image_height": "large",
