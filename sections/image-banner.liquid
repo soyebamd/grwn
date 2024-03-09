@@ -125,7 +125,9 @@
   Video here...
 {{ section.settings.video.url }}
 
-
+ {{
+            section.settings.video | video_tag: image_size: '1100x', controls: true, muted: false
+          }}
 
 
 {% endif %}
