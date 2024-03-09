@@ -76,11 +76,79 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_WK47MW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bHYEkK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_80883612-3af8-4e70-bb05-ac57ecaa3a58.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QETnqn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_80883612-3af8-4e70-bb05-ac57ecaa3a58.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8kt86a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_80883612-3af8-4e70-bb05-ac57ecaa3a58.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_48cpNX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_80883612-3af8-4e70-bb05-ac57ecaa3a58.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bHYEkK",
+        "column_QETnqn",
+        "column_8kt86a",
+        "column_48cpNX"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "grwn_rich_text_AWm97r",
-    "grwn_rich_text_8cBK7n"
+    "grwn_rich_text_8cBK7n",
+    "multicolumn_WK47MW"
   ]
 }
