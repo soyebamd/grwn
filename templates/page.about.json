@@ -119,20 +119,42 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_NpMFji": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_80883612-3af8-4e70-bb05-ac57ecaa3a58.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RnhQ4Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_d8c8562e-409e-4e86-8fe8-9f011a218f1c.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_bHYEkK",
         "column_QETnqn",
         "column_8kt86a",
-        "column_48cpNX"
+        "column_48cpNX",
+        "column_NpMFji",
+        "column_RnhQ4Y"
       ],
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Button label",
