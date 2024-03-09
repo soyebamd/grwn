@@ -101,22 +101,22 @@
         "heading_WCF9YV": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "VALU PROP\u2028",
             "heading_size": "h1"
           }
         },
         "text_Q8QpJx": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>CONTENT FROM THE COLLECTION AND\/OR INFORMATION ON THE DIAMONDS (cut, clarity, color , carat)<\/p>",
             "text_style": "body"
           }
         },
         "button_FFgzCd": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Shop Now",
+            "button_link": "#",
             "button_style_secondary": false
           }
         }
