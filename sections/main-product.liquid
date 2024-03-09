@@ -67,14 +67,20 @@
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
-  <nav aria-label="Home" class="breadcrumb">
+ 
+
+  <div class="page-width">
+
+  <div id="bredcrumb">
+     <nav aria-label="Home" class="breadcrumb">
 <a class="Breadcrumbs" href="{{ routes.root_url }}">Home </a> /
 <a class="Breadcrumbs" href="/collections/{{ product.type | handleize}}"> {{ product.type }} </a> /
 <span class="breadcrumb__link" aria-current="page" style="font-weight:bold;"> {{ product.title}}</span>
 </nav>
 
+  </div>
 
-  <div class="page-width">
+
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
       {% render 'product-media-gallery', variant_images: variant_images %}
