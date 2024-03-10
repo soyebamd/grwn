@@ -84,7 +84,7 @@
                   <div class="image-with-text__text rte {{ block.settings.text_style }}
                   
                   
-                 
+                  
                   
                   
                   
@@ -93,13 +93,16 @@
                   
                   
                   >
-                 <div class="      
+
+                  <div class="      
                   
                  {{ block.settings.desktop_content_alignment }}
                       
-                      ">  {{ block.settings.text }}
+                      "> 
 
-                      </div> 
+                    {{ block.settings.text }}
+
+                    </div>
                   </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
