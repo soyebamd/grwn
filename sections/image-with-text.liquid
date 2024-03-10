@@ -67,11 +67,26 @@
             {%- for block in section.blocks -%}
               {% case block.type %}
                 {%- when 'heading' -%}
-                  <h2
+               
+                
+                <h2
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.heading }}
+                  
+
+                   <div class="      
+                  
+                 {{ block.settings.heading_content_position }} 
+                      
+                      "> 
+
+
+                     {{ block.settings.heading }} 
+
+                     </div>
+
+                     
                   </h2>
                 {%- when 'caption' -%}
                   <p
@@ -80,7 +95,7 @@
                   >
                  <div class="      
                   
-                 {{ block.settings.content_position }}
+                 {{ block.settings.caption_content_position }}
                       
                       ">     {{ block.settings.caption | escape }} </div>
                   </p>
@@ -359,6 +374,30 @@
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
+
+         {
+      "type": "select",
+      "id": "heading_content_position",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.rich-text.settings.desktop_content_position.label",
+      "info": "t:sections.rich-text.settings.desktop_content_position.info"
+    },
+
+
         {
           "type": "select",
           "id": "heading_size",
@@ -394,7 +433,7 @@
         },
          {
       "type": "select",
-      "id": "content_position",
+      "id": "caption_content_position",
       "options": [
         {
           "value": "left",
