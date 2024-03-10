@@ -113,3 +113,8 @@
 .rich-text__blocks {
   max-width: 104rem;
 }
+
+.multicolumn-card-spacing {
+  padding: 10px;
+  margin: 0;
+}
