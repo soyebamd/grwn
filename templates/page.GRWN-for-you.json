@@ -44,6 +44,7 @@
           "type": "heading",
           "settings": {
             "heading": "THE GUIDE TO DIAMONDS",
+            "heading_content_position": "left",
             "heading_size": "h2"
           }
         },
@@ -82,6 +83,7 @@
           "type": "heading",
           "settings": {
             "heading": "THE GUIDE TO DIAMONDS",
+            "heading_content_position": "right",
             "heading_size": "h2"
           }
         },
