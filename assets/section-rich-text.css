@@ -104,6 +104,10 @@
   width: 80%;
 }
 
+.rich-text__text a {
+  color: #5930d2;
+}
+
 .rich-text-flex .page-title {
   text-align: right;
   margin-top: 2px;
