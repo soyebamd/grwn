@@ -81,7 +81,31 @@
                     {{ block.settings.caption | escape }}
                   </p>
                 {%- when 'text' -%}
-                  <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                  <div class="image-with-text__text rte {{ block.settings.text_style }}
+                  
+                  
+                  {% if desktop_content_alignment == 'right' %}
+
+                    right
+
+                      {% elsif desktop_content_alignment == 'center' %}
+
+                        center
+
+                        {% else %}
+
+                        left
+
+
+                      {% endif %}
+                  
+                  
+                  
+                  " {{ block.shopify_attributes }}
+                  
+                  
+                  
+                  >
                     {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
