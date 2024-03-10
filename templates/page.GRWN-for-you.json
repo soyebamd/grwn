@@ -182,8 +182,8 @@
         "padding_bottom": 36
       }
     },
-    "contact_form_iLCzy3": {
-      "type": "contact-form",
+    "grwn_contact_form_hnnXRr": {
+      "type": "grwn-contact-form",
       "settings": {
         "heading": "Contact form",
         "heading_size": "h1",
@@ -199,6 +199,6 @@
     "image_with_text_cz9gy6",
     "image_with_text_pkggtm",
     "multicolumn_FhBMmB",
-    "contact_form_iLCzy3"
+    "grwn_contact_form_hnnXRr"
   ]
 }
