@@ -84,6 +84,17 @@
                   <div class="image-with-text__text rte {{ block.settings.text_style }}
                   
                   
+                 
+                  
+                  
+                  
+                  " {{ block.shopify_attributes }}
+                  
+                  
+                  
+                  >
+                 <div class="
+                 
                   {% if desktop_content_alignment == 'right' %}
 
                     right
@@ -98,15 +109,10 @@
 
 
                       {% endif %}
-                  
-                  
-                  
-                  " {{ block.shopify_attributes }}
-                  
-                  
-                  
-                  >
-                    {{ block.settings.text }}
+                      
+                      ">  {{ block.settings.text }}
+
+                      </div> 
                   </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
