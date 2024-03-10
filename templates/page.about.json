@@ -59,7 +59,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg",
             "padding_top": 52,
-            "padding_bottom": 52
+            "padding_bottom": 0
           }
         }
       },
@@ -150,7 +150,7 @@
         "column_qX4mKR"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "GRWN TEAM",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -165,12 +165,43 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "grwn_rich_text_jfhVJ7": {
+      "type": "grwn-rich-text",
+      "blocks": {
+        "heading_teLzEQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "PRESS INQUIRIES",
+            "heading_size": "h1"
+          }
+        },
+        "text_LH8jT9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>For press inquiries, contact us at<br\/><\/strong><a href=\"mailto:pr@grwn.com\" title=\"mailto:pr@grwn.com\"><strong>pr@grwn.com<\/strong><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_teLzEQ",
+        "text_LH8jT9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "grwn_rich_text_AWm97r",
     "grwn_rich_text_8cBK7n",
-    "grwn_multiculumn_Mi8r4j"
+    "grwn_multiculumn_Mi8r4j",
+    "grwn_rich_text_jfhVJ7"
   ]
 }
