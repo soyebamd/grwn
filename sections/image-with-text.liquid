@@ -93,22 +93,9 @@
                   
                   
                   >
-                 <div class="
-                 
-                  {% if desktop_content_alignment == 'right' %}
-
-                    right
-
-                      {% elsif desktop_content_alignment == 'center' %}
-
-                        center
-
-                        {% else %}
-
-                        left
-
-
-                      {% endif %}
+                 <div class="      
+                  
+                 {{ block.settings.desktop_content_alignment }}
                       
                       ">  {{ block.settings.text }}
 
