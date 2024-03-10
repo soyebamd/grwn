@@ -71,14 +71,22 @@
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.heading }}
+                 <div class="      
+                  
+                 {{ block.settings.desktop_content_alignment }}
+                      
+                      ">     {{ block.settings.heading }}</div>
                   </h2>
                 {%- when 'caption' -%}
                   <p
-                    class="image-with-text__text image-with-text__text--caption  {{ block.settings.desktop_content_alignment }} {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                    class="image-with-text__text image-with-text__text--caption   {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.caption | escape }}
+                 <div class="      
+                  
+                 {{ block.settings.desktop_content_alignment }}
+                      
+                      ">     {{ block.settings.caption | escape }}</div>
                   </p>
                 {%- when 'text' -%}
                   <div class="image-with-text__text rte {{ block.settings.text_style }}
