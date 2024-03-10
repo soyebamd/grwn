@@ -78,7 +78,11 @@
                     class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.caption | escape }}
+                 <div class="      
+                  
+                 {{ block.settings.content_position }}
+                      
+                      ">     {{ block.settings.caption | escape }} </div>
                   </p>
                 {%- when 'text' -%}
                   <div class="image-with-text__text rte {{ block.settings.text_style }}
@@ -388,6 +392,28 @@
           "default": "Add a tagline",
           "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
         },
+         {
+      "type": "select",
+      "id": "content_position",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.rich-text.settings.desktop_content_position.label",
+      "info": "t:sections.rich-text.settings.desktop_content_position.info"
+    },
+
         {
           "type": "select",
           "id": "text_style",
@@ -454,7 +480,7 @@
           "label": "t:sections.rich-text.settings.desktop_content_position.options__3.label"
         }
       ],
-      "default": "center",
+      "default": "left",
       "label": "t:sections.rich-text.settings.desktop_content_position.label",
       "info": "t:sections.rich-text.settings.desktop_content_position.info"
     },
