@@ -59,7 +59,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg",
             "padding_top": 52,
-            "padding_bottom": 52
+            "padding_bottom": 0
           }
         }
       },
