@@ -28,10 +28,14 @@
         "heading_rDBRRV",
         "text_3VQFUy"
       ],
+      "custom_css": [
+        ".rich-text__wrapper {max-width: 90rem !important;}",
+        ".rich-text__wrapper h2 {color: rgba(89, 48, 210, 1);}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -68,8 +72,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
