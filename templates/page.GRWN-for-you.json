@@ -197,6 +197,46 @@
         "padding_top": 36,
         "padding_bottom": 52
       }
+    },
+    "collection_list_BPVpHP": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_RREkKD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_DMkUwX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_YUR9Ef": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_RREkKD",
+        "featured_collection_DMkUwX",
+        "featured_collection_YUR9Ef"
+      ],
+      "settings": {
+        "title": "LOOKBOOK",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -205,6 +245,7 @@
     "image_with_text_cz9gy6",
     "image_with_text_pkggtm",
     "multicolumn_FhBMmB",
-    "grwn_contact_form_hnnXRr"
+    "grwn_contact_form_hnnXRr",
+    "collection_list_BPVpHP"
   ]
 }
