@@ -29,7 +29,8 @@
         "text_3VQFUy"
       ],
       "custom_css": [
-
+        ".rich-text__wrapper {max-width: 104rem !important;}",
+        ".rich-text__wrapper h2{color:rgba(89,48,210,1)}"
       ],
       "settings": {
         "desktop_content_position": "center",
