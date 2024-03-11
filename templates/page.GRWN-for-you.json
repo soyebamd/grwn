@@ -66,14 +66,15 @@
         "text_xADGCT"
       ],
       "settings": {
+        "custom_width": true,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-5",
-        "color_scheme": "scheme-5",
+        "section_color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
+        "color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -105,14 +106,15 @@
         "text_mccz6j"
       ],
       "settings": {
+        "custom_width": true,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
+        "color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -182,8 +184,8 @@
         "color_scheme": "scheme-5",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "grwn_contact_form_hnnXRr": {
@@ -193,7 +195,7 @@
         "heading_size": "h1",
         "color_scheme": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 52
       }
     }
   },
