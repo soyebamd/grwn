@@ -66,6 +66,7 @@
         "text_xADGCT"
       ],
       "settings": {
+        "custom_width": true,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -105,6 +106,7 @@
         "text_mccz6j"
       ],
       "settings": {
+        "custom_width": true,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -182,7 +184,7 @@
         "color_scheme": "scheme-5",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "padding_bottom": 36
       }
     },
