@@ -185,7 +185,7 @@
     "grwn_contact_form_hnnXRr": {
       "type": "grwn-contact-form",
       "settings": {
-        "heading": "Contact form",
+        "heading": "<strong>CONTACT US<\/strong>",
         "heading_size": "h1",
         "color_scheme": "",
         "padding_top": 36,
