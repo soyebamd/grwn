@@ -2,8 +2,13 @@
   "sections": {
     "main": {
       "type": "lookbook-page",
-      "settings": { "padding_top": 36, "padding_bottom": 36 }
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }
