@@ -25,10 +25,10 @@
         "show_text_below": true
       }
     },
-    "lookbook_9dbWq4": {
+    "lookbook_CWgHR8": {
       "type": "lookbook",
       "settings": {
-        "heading": "LookBook",
+        "heading": "Blog posts",
         "heading_size": "h1",
         "blog": "",
         "post_limit": 3,
@@ -46,6 +46,6 @@
   "order": [
     "main",
     "image_banner_y7RcQn",
-    "lookbook_9dbWq4"
+    "lookbook_CWgHR8"
   ]
 }
