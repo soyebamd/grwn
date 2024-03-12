@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "settings": {
         "layout": "grid",
         "show_image": true,
@@ -10,6 +11,23 @@
         "show_author": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_iizXfa": {
+      "type": "image-banner",
+      "settings": {
+        "show_video": false,
+        "banner_link": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "lookbook_AVpQTG": {
@@ -32,6 +50,7 @@
   },
   "order": [
     "main",
+    "image_banner_iizXfa",
     "lookbook_AVpQTG"
   ]
 }
