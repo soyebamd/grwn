@@ -8,84 +8,26 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_p6i6xH": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_7rwaha": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bracelets"
-          }
-        },
-        "featured_collection_9AMfDf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "featured-collection"
-          }
-        },
-        "featured_collection_4PR6jG": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "frontpage"
-          }
-        },
-        "featured_collection_8yQidW": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "rings"
-          }
-        },
-        "featured_collection_iFLMQy": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "necklaces"
-          }
-        },
-        "featured_collection_zeFGVh": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_4WWk9W": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_HUeGMT": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_7rwaha",
-        "featured_collection_9AMfDf",
-        "featured_collection_4PR6jG",
-        "featured_collection_8yQidW",
-        "featured_collection_iFLMQy",
-        "featured_collection_zeFGVh",
-        "featured_collection_4WWk9W",
-        "featured_collection_HUeGMT"
-      ],
+    "image_banner_y7RcQn": {
+      "type": "image-banner",
       "settings": {
-        "title": "LOOKBOOK",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "show_video": false,
+        "banner_link": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "main",
-    "collection_list_p6i6xH"
+    "image_banner_y7RcQn"
   ]
 }
