@@ -49,7 +49,7 @@
               {% endif %}
             >
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-               <a href="{{ article.url }}" class="full-unstyled-link custom-link">
+             
               <img
                 srcset="
                   {%- if article.image.src.width >= 165 -%}{{ article.image.src | image_url: width: 165 }} 165w,{%- endif -%}
@@ -70,7 +70,7 @@
                 width="{{ article.image.width }}"
                 height="{{ article.image.height }}"
               >
-               </a>
+              <a href="{{ article.url }}" class="custom-link">   </a>
               
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
             </div>
