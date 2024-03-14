@@ -19,15 +19,8 @@
       }
     },
     "main": {
-      "type": "main-blog",
+      "type": "lookbook-blog",
       "settings": {
-        "layout": "grid",
-        "show_image": true,
-        "image_height": "medium",
-        "show_date": false,
-        "show_author": false,
-        "padding_top": 36,
-        "padding_bottom": 100
       }
     }
   },
