@@ -45,6 +45,10 @@
 
 
 
+.blog-articles:hover a{
+  text-decoration:none; 
+}
+
 .card__information{ padding:0; }
 
 .card__information a{color:  #5930D2;  color: #5930d2;
