@@ -9,9 +9,15 @@
   width: 100%;
 }
 
+@media screen and (min-width: 992px) {
+  .blog-articles {
+  
+  }
+}
+
 @media screen and (min-width: 750px) {
   .blog-articles {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: var(--grid-desktop-horizontal-spacing);
     row-gap: var(--grid-desktop-vertical-spacing);
   }
