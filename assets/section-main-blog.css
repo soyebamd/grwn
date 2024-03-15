@@ -48,7 +48,7 @@
 .card__information{ padding:0; }
 
 .card__information a{color:  #5930D2; }
-
+.card__information a:hover{text-decoration:none; }
 
 .card__information h3:nth-child(2){text-decoration-line: underline; }
 
