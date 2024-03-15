@@ -40,7 +40,6 @@
         class="card__inner {% if settings.blog_card_style == 'standard' %} color-{{ settings.blog_card_color_scheme }} gradient{% endif %}{% if article.image and show_image or settings.blog_card_style == 'standard' %} ratio{% endif %}"
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
       >
-        
         {%- if show_image == true and article.image -%}
           <div class="article-card__image-wrapper card__media">
             <div
@@ -74,26 +73,13 @@
             </div>
           </div>
         {%- endif -%}
-
-       
-        <div class="card__Content">
+        <div class="card__content">
           <div class="card__information">
-            <div class="flex">
-            <h3>
-              <a href="{{ article.url }}">
+            <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
+              <a href="{{ article.url }}" class="full-unstyled-link">
                 {{ article.title | truncate: 50 | escape }}
               </a>
             </h3>
-
-               <h3>
-              <a href="{{ article.url }}">
-               see more
-              </a>
-            </h3>
-
-
-              
-            </div>
             <div class="article-card__info caption-with-letter-spacing h5">
               {%- if show_date -%}
                 <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
@@ -128,26 +114,11 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-         
-
-           <div class="flex justify-content-center">
-            <h3>
-              <a href="{{ article.url }}">
-                {{ article.title | truncate: 50 | escape }}
-              </a>
-            </h3>
-
-               <h3>
-              <a href="{{ article.url }}">
-               see more
-              </a>
-            </h3>
-
-
-              
-            </div>
-
-            {% comment %}
+          <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
+            <a href="{{ article.url }}" class="full-unstyled-link">
+              {{ article.title | truncate: 50 | escape }}
+            </a>
+          </h3>
           <div class="article-card__info caption-with-letter-spacing h5">
             {%- if show_date -%}
               <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
@@ -156,8 +127,6 @@
               <span>{{ article.author }}</span>
             {%- endif -%}
           </div>
-
-          
           {%- if show_excerpt -%}
             {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
               <p class="article-card__excerpt rte-width">
@@ -179,10 +148,7 @@
           <div class="card__badge {{ settings.badge_position }}">
             <span class="badge color-{{ settings.color_schemes | first }}">{{ 'blogs.article.blog' | t }}</span>
           </div>
-          
         {%- endif -%}
-
-        {% endcomment %}
       </div>
     </div>
   </div>
