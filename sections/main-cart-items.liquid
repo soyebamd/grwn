@@ -22,7 +22,7 @@
         flex-direction: column;
   }
 
-  .title-wrapper-with-link h1{color: #5930D2; text-transform:uppercase;
+  .title-wrapper-with-link .h0{color: #5930D2; text-transform:uppercase;
 
 font-size: 48px;
 
@@ -38,6 +38,9 @@ font-weight: 900;
 <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
 
 <cart-items class="gradient color-{{ section.settings.color_scheme }} isolate{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
+
+<h2 class="h0">CHECKOUT</h2>
+  
   <div class="page-width">
     <div class="title-wrapper-with-link">
       <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
