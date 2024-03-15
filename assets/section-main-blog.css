@@ -47,14 +47,18 @@
 
 .card__information{ padding:0; }
 
-.card__information a{}
+.card__information a{color:  #5930D2; }
 
-{color:  #5930D2);
 
+.card__information h3:nth-child(2){text-decoration-line: underline; }
+
+
+.card__information h3{
 font-size: 18px;
 
 font-weight: 900;
- }
+line-height: normal;
+}
 
 @media screen and (min-width: 990px) {
   .blog-articles--collage > *:nth-child(3n + 1) .article-card__image--small .ratio .ratio::before,
