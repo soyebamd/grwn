@@ -118,9 +118,8 @@
       "blocks": {
         "heading_kTyrtp": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image banner",
+            "heading": "Collection Title",
             "heading_size": "h1"
           }
         },
@@ -155,10 +154,10 @@
         "banner_link": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-right",
         "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "",
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-10be726e-fe68-48d6-88af-1bfd5914470a",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
