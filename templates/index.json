@@ -135,10 +135,10 @@
         "buttons_qrcgk4": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Feature Colleciton",
+            "button_link_1": "#",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -151,12 +151,12 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_5.jpg",
-        "show_video": true,
+        "show_video": false,
         "banner_link": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "image_behavior": "none",
