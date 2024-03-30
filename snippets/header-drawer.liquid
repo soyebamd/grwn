@@ -56,7 +56,7 @@
               <button aria-expanded="true">
                 {{ link.title | escape }}
               </button>
-              <ul role="list" tabindex="-1">
+              <ul role="list" tabindex="-1" class="menu-drawer__menu list-menu">
                 {%- for childlink in link.links -%}
                   <li>
                     {%- if childlink.links == blank -%}
