@@ -45,16 +45,27 @@
 
 
 
+<ul class="menu">
   {%- for link in section.settings.menu.links -%}
-
-
-                <li>
-                  <a href="{{ link.handle | escape }}">
-                     {{ link.title | escape }}
-                  </a>
-                </li>
-
+    <li class="menu-item">
+      <a href="{{ link.handle | escape }}">
+        {{ link.title | escape }}
+      </a>
+      {% if link.submenu %}
+        <ul class="submenu">
+          {%- for sublink in link.submenu -%}
+            <li class="submenu-item">
+              <a href="{{ sublink.handle | escape }}">
+                {{ sublink.title | escape }}
+              </a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {% endif %}
+    </li>
   {% endfor %}
+</ul>
+
 
 
   {%- for link in section.settings.menu.links -%}
