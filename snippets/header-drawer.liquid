@@ -43,8 +43,6 @@
 
 <ul class="grwn-mega-menu"> 
 
-
-
 <ul class="menu">
   {%- for link in section.settings.menu.links -%}
     <li class="menu-item">
@@ -52,20 +50,25 @@
         {{ link.title | escape }}
       </a>
       {% if link.submenu %}
-        <ul class="submenu">
-          {%- for sublink in link.submenu -%}
-            <li class="submenu-item">
-              <a href="{{ sublink.handle | escape }}">
-                {{ sublink.title | escape }}
-              </a>
-            </li>
-          {%- endfor -%}
-        </ul>
+        {% assign submenu = link.submenu %}
+        {% include 'submenu' with submenu %}
       {% endif %}
     </li>
   {% endfor %}
 </ul>
 
+<ul class="submenu">
+  {%- for sublink in submenu -%}
+    <li class="submenu-item">
+      <a href="{{ sublink.handle | escape }}">
+        {{ sublink.title | escape }}
+      </a>
+      {% if sublink.submenu %}
+        {% include 'submenu' with sublink.submenu %}
+      {% endif %}
+    </li>
+  {%- endfor -%}
+</ul>
 
 
   {%- for link in section.settings.menu.links -%}
