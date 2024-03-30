@@ -44,6 +44,19 @@
 <ul class="grwn-mega-menu"> 
 
 
+
+  {%- for link in section.settings.menu.links -%}
+
+
+                <li>
+                  <a href="{{ link.handle | escape }}">
+                     {{ link.title | escape }}
+                  </a>
+                </li>
+
+  {% endfor %}
+
+
   {%- for link in section.settings.menu.links -%}
                 <li>
                   {%- if link.links != blank -%}
