@@ -21,6 +21,12 @@
 {%- paginate blog.articles by 20 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding" id="main-blog">
 
+  
+    <h1 class="text-center blog-title title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      {{ blog.title | escape }}
+    </h1>
+
+
     {% comment %}
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {{ blog.title | escape }}
