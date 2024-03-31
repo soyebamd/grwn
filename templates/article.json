@@ -15,59 +15,28 @@
           "settings": {
             "image_height": "large"
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "content": {
-          "type": "content",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "title",
-        "featured_image_xeUP3Y",
-        "share",
-        "content"
+        "featured_image_xeUP3Y"
       ],
       "settings": {
       }
     },
-    "collage_hqih68": {
-      "type": "collage",
-      "blocks": {
-        "image_RFiYeX": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "image_y9Q7fh": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "image_FwPpCJ": {
-          "type": "image",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "image_RFiYeX",
-        "image_y9Q7fh",
-        "image_FwPpCJ"
-      ],
+    "collage_lookbook_zGahk6": {
+      "type": "collage-lookbook",
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "blog": "",
+        "post_limit": 4,
+        "columns_desktop": 4,
         "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -75,6 +44,6 @@
   },
   "order": [
     "main",
-    "collage_hqih68"
+    "collage_lookbook_zGahk6"
   ]
 }
