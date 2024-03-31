@@ -16,15 +16,17 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
-  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
-  src: url("https://cdn.shopify.com/s/files/1/0683/4008/9055/files/ABCDiatypeSemi-MonoCondensed-Regular.woff?v=1711860245")
-    format("woff");
+  font-family: "abc_diatype_semi-monobold";
+  src: url("https://cdn.shopify.com/s/files/1/0683/4008/9055/files/abc-diatype-semi-mono-bold-webfont.woff2?v=1705821546")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0683/4008/9055/files/abc-diatype-semi-mono-bold-webfont.woff?v=1705821546")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 h2.title {
-  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
+  font-family: "abc_diatype_semi-monobold";
   font-size: 24px;
   letter-spacing: normal;
   text-transform: uppercase;
@@ -33,18 +35,18 @@ h2.title {
   margin-bottom: 13px;
 }
 #landing-page {
-  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
+  font-family: "abc_diatype_semi-monobold";
 }
 .form__message p {
   font-size: 24px;
-  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
+  font-family: "abc_diatype_semi-monobold";
   line-height: normal;
   margin: 0;
   letter-spacing: normal;
 }
 
 body {
-  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
+  font-family: "abc_diatype_semi-monobold";
   line-height: normal;
 }
 
@@ -171,7 +173,7 @@ h6,
 .bottom-menu ul li a {
   color: #000;
   text-decoration: none;
-  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
+  font-family: "abc_diatype_semi-monobold";
 }
 
 .social-icon {
@@ -212,7 +214,7 @@ h6,
   height: auto;
   box-shadow: none;
   color: #000;
-  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
+  font-family: "abc_diatype_semi-monobold";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -221,7 +223,7 @@ h6,
 
 .grwn-subscribe .field__label,
 .grwn-subscribe .customer .field label {
-  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
+  font-family: "abc_diatype_semi-monobold";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -258,7 +260,7 @@ h6,
   border: 0;
   font-size: 16px;
   font-weight: 300;
-  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
+  font-family: "abc_diatype_semi-monobold";
   text-transform: uppercase;
   padding: 0 0 0 10px !important;
   min-height: 31px;
@@ -275,7 +277,7 @@ h6,
   padding: 15px 60px !important;
   margin: 0;
 
-  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
+  font-family: "abc_diatype_semi-monobold";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
