@@ -27,7 +27,7 @@
     "collage_lookbook_zGahk6": {
       "type": "collage-lookbook",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "",
         "heading_size": "h1",
         "blog": "",
         "post_limit": 4,
