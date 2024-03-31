@@ -3,17 +3,17 @@
     "main": {
       "type": "main-article",
       "blocks": {
-        "featured_image_xeUP3Y": {
-          "type": "featured_image",
-          "settings": {
-            "image_height": "large"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
             "blog_show_date": true,
             "blog_show_author": false
+          }
+        },
+        "featured_image_xeUP3Y": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "large"
           }
         },
         "share": {
@@ -29,8 +29,8 @@
         }
       },
       "block_order": [
-        "featured_image_xeUP3Y",
         "title",
+        "featured_image_xeUP3Y",
         "share",
         "content"
       ],
