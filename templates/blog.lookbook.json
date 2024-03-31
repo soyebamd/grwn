@@ -3,7 +3,6 @@
     "image_banner_iizXfa": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
         "show_video": false,
         "banner_link": "",
         "image_overlay_opacity": 0,
