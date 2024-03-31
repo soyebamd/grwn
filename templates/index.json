@@ -134,7 +134,7 @@
         "buttons_qrcgk4": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Feature Colleciton",
+            "button_label_1": "Feature Collection",
             "button_link_1": "#",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -151,7 +151,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_5.jpg",
         "show_video": false,
-        "banner_link": "",
+        "banner_link": "shopify:\/\/collections\/featured-collection",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "bottom-right",
