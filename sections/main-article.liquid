@@ -1,5 +1,13 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
+<style>
+
+.blog_banner-image{
+  height: 500px;
+}
+
+</style>
+
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
   {%- for block in section.blocks -%}
@@ -14,10 +22,10 @@
 
 
 
-{{ article.image  }}
-<div class="blog_banner-image">
 
-  <img src="{{ article.image | image_url: width: 1100 }}">
+<div class="blog_banner-image" style="background:url({{ article.image | image_url: 'master' }})">
+
+  
   
   </div>
 
