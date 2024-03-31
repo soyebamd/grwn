@@ -18,13 +18,13 @@
 }
 
 @font-face {
-  font-family: "abc_diatype_semi-monobold";
+  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
   src: url("https://cdn.shopify.com/s/files/1/0683/4008/9055/files/ABCDiatypeSemi-MonoCondensed-Regular.woff?v=1711860245")
     format("woff");
 }
 
 h2.title {
-  font-family: "abc_diatype_semi-monobold";
+  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
   font-size: 24px;
   letter-spacing: normal;
   text-transform: uppercase;
@@ -33,18 +33,18 @@ h2.title {
   margin-bottom: 13px;
 }
 #landing-page {
-  font-family: "abc_diatype_semi-monobold";
+  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
 }
 .form__message p {
   font-size: 24px;
-  font-family: "abc_diatype_semi-monobold";
+  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
   line-height: normal;
   margin: 0;
   letter-spacing: normal;
 }
 
 body {
-  font-family: "abc_diatype_semi-monobold";
+  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
   line-height: normal;
 }
 
@@ -171,7 +171,7 @@ h6,
 .bottom-menu ul li a {
   color: #000;
   text-decoration: none;
-  font-family: "abc_diatype_semi-monobold";
+  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
 }
 
 .social-icon {
@@ -212,7 +212,7 @@ h6,
   height: auto;
   box-shadow: none;
   color: #000;
-  font-family: "abc_diatype_semi-monobold";
+  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -221,7 +221,7 @@ h6,
 
 .grwn-subscribe .field__label,
 .grwn-subscribe .customer .field label {
-  font-family: "abc_diatype_semi-monobold";
+  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -258,7 +258,7 @@ h6,
   border: 0;
   font-size: 16px;
   font-weight: 300;
-  font-family: "abc_diatype_semi-monobold";
+  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
   text-transform: uppercase;
   padding: 0 0 0 10px !important;
   min-height: 31px;
@@ -275,7 +275,7 @@ h6,
   padding: 15px 60px !important;
   margin: 0;
 
-  font-family: "abc_diatype_semi-monobold";
+  font-family: "ABCDiatypeSemi-MonoCondensed-Regular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
