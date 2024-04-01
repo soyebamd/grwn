@@ -26,6 +26,24 @@
     },
     "collage_lookbook_zGahk6": {
       "type": "collage-lookbook",
+      "blocks": {
+        "column_jwT66d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19.jpg"
+          }
+        },
+        "column_byHbCP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "column_jwT66d",
+        "column_byHbCP"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
