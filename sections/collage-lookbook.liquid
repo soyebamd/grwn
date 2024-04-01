@@ -79,7 +79,29 @@
 
 
 
-       <li class="blog__post grid__item article slider__slide slider__slide--full-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">test</li>
+     
+        {%- for block in section.blocks -%}
+
+         <li class="blog__post grid__item article slider__slide slider__slide--full-width{% if block.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            
+
+             {{ block.settings.image |  img_url: 'medium' |  img_tag }}
+
+
+
+         </li>
+
+     
+            
+
+       
+  
+     
+   
+  {% endfor %}
+
+
+
 
        <li class="blog__post grid__item article slider__slide slider__slide--full-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">test</li>
 
@@ -113,18 +135,7 @@
 
 
 
-       
-        {%- for block in section.blocks -%}
-
-  
-     dsfsdf
-              {{ block.settings.image }}
-
-        {{ block.settings.image |  img_url: 'medium' |  img_tag }}
-  
-     
-   
-  {% endfor %}
+      
 
 
 
