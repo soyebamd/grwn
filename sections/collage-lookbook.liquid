@@ -51,15 +51,15 @@
        
        
        {% for block in section.blocks %}  
-    {% case block.type %}
+
   
-      {% when 'column' %}  
+     
               {{ block.settings.image }}
 
         {{ block.settings.image |  img_url: 'medium' |  img_tag }}
   
      
-    {% endcase %} 
+   
   {% endfor %}
 
 
