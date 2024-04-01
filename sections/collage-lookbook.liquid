@@ -46,14 +46,10 @@
 
             {{ article.metafields.custom.blog_post_images }}
 
-            {% if article.metafields.custom_fields %}
-  <h2>Custom Fields</h2>
-  <ul>
-    <li>Custom Field 1: {{ article.metafields.custom_fields.field1 }}</li>
-    <li>Custom Field 2: {{ article.metafields.custom_fields.field2 }}</li>
-    <!-- Add more fields as needed -->
-  </ul>
+          {% if article.metafields.custom.blog_post_images %}
+  <img src="{{ article.metafields.custom.blog_post_images }}" alt="Blog Post Image">
 {% endif %}
+
              
 
 
