@@ -50,7 +50,20 @@
        
        
        
+       {% for block in section.blocks %}  
+    {% case block.type %}
+  
+      {% when 'image_picker' %}  
        
+        image_picker
+
+        {{ block.settings.image |  img_url: 'medium' |  img_tag }}
+  
+     
+    {% endcase %} 
+  {% endfor %}
+
+
        
        
        
