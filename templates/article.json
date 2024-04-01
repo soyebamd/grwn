@@ -38,11 +38,25 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_19_1.jpg"
           }
+        },
+        "column_mfEWym": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19_4.jpg"
+          }
+        },
+        "column_NQArMz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-16_at_2.43_1.jpg"
+          }
         }
       },
       "block_order": [
         "column_jwT66d",
-        "column_byHbCP"
+        "column_byHbCP",
+        "column_mfEWym",
+        "column_NQArMz"
       ],
       "settings": {
         "heading": "",
