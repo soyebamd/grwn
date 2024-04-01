@@ -50,7 +50,12 @@
   <img src="{{ article.metafields.custom.blog_post_images }}" alt="Blog Post Image">
 {% endif %}
 
-             
+             {% assign media_image_id = "34460330983647" %}
+{% assign media_image = all_images[media_image_id] %}
+
+{% if media_image %}
+  <img src="{{ media_image.src | img_url: 'medium' }}" alt="Blog Post Image">
+{% endif %}
 
 
 
