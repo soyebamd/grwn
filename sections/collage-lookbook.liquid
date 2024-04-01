@@ -42,6 +42,11 @@
   endif
 -%}
 
+            {{ custom.blog_post_images }}
+             
+
+{{ metafield }}
+
 
 <div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class="page-width-desktop text-center isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
@@ -81,12 +86,6 @@
             
 
             <img src="{{ block.settings.image |  img_url }}" class="objectFit">
-
-            {{ custom.blog_post_images }}
-             
-custom.blog_post_images
-
-{{ metafield }}
 
 
          </li>
