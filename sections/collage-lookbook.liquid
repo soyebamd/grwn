@@ -56,7 +56,7 @@
 
 {% endfor %}
 
-<img src="{{ product.metafields.custom.blog_post_images | file_url }}">
+<img src="{{ article.metafields.custom.blog_post_images | file_url }}">
 
 
 <div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
