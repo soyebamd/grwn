@@ -20,6 +20,8 @@
     height: 100%;
     object-fit: cover; }
 
+    .article-template__title{ text-align:center; }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -56,7 +58,7 @@
             href="{{ section.settings.blog.url }}"
             class="link underlined-link large-up-hide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           >
-            {{ 'sections.featured_blog.view_all' | t }}sdsdfdsfds
+            {{ 'sections.featured_blog.view_all' | t }}
           </a>
         {%- endif -%}
       </div>
