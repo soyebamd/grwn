@@ -56,6 +56,8 @@
 
 {% endfor %}
 
+<img src="{{ product.metafields.custom.blog_post_images | file_url }}">
+
 
 <div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class="page-width-desktop text-center isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
