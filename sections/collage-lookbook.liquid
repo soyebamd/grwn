@@ -42,13 +42,20 @@
   endif
 -%}
 
-            {{ custom.blog_post_images }}
-
+           
 
             {{ article.metafields.custom.blog_post_images }}
+
+            {% if article.metafields.custom_fields %}
+  <h2>Custom Fields</h2>
+  <ul>
+    <li>Custom Field 1: {{ article.metafields.custom_fields.field1 }}</li>
+    <li>Custom Field 2: {{ article.metafields.custom_fields.field2 }}</li>
+    <!-- Add more fields as needed -->
+  </ul>
+{% endif %}
              
 
-{{ metafield }}
 
 
 <div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
