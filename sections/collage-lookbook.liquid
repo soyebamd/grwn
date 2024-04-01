@@ -46,13 +46,11 @@
 
             {{ article.metafields.custom.blog_post_images }}
 
-          {% if article.metafields.custom.blog_post_images %}
-  <img src="{{ article.metafields.custom.blog_post_images }}" alt="Blog Post Image">
-{% endif %}
+        
 
 
 
-{% for metafield in article.metafields.custom.blog_post_images %}
+{% for metafield in article.metafields.blog_post_images %}
 
 {{metafield | last}}
 
