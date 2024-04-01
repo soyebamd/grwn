@@ -50,13 +50,41 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2024-02-16_at_2.43_1.jpg"
           }
+        },
+        "column_QWHQL6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19_2.jpg"
+          }
+        },
+        "column_PtafAE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19.jpg"
+          }
+        },
+        "column_kqE6E7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19.png"
+          }
+        },
+        "column_cE9tz3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_10.29_1.jpg"
+          }
         }
       },
       "block_order": [
         "column_jwT66d",
         "column_byHbCP",
         "column_mfEWym",
-        "column_NQArMz"
+        "column_NQArMz",
+        "column_QWHQL6",
+        "column_PtafAE",
+        "column_kqE6E7",
+        "column_cE9tz3"
       ],
       "settings": {
         "heading": "",
