@@ -15,6 +15,11 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .objectFit{    width: 100%;
+    height: auto;
+    object-fit: cover; }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -85,7 +90,8 @@
          <li class="blog__post grid__item article slider__slide slider__slide--full-width{% if block.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             
 
-             {{ block.settings.image |  img_url: 'medium' |  img_tag }}
+            <img src="{{ block.settings.image |  img_url }}" class="objectFit">
+             
 
 
 
