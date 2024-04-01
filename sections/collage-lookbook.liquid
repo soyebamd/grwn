@@ -34,7 +34,7 @@
 
 
 <div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
-  <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
+  <div class="page-width-desktop text-center isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link{% if posts_displayed > 2 %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
        
@@ -50,17 +50,6 @@
 
        
        
-        {%- if section.settings.blog != blank
-          and section.settings.show_view_all
-          and section.settings.post_limit < section.settings.blog.articles_count
-        -%}
-          <a
-            href="{{ section.settings.blog.url }}"
-            class="link underlined-link large-up-hide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          >
-            {{ 'sections.featured_blog.view_all' | t }}
-          </a>
-        {%- endif -%}
       </div>
     {%- endunless -%}
 
@@ -101,6 +90,20 @@
 
         
     </ul>
+
+
+    
+        {%- if section.settings.blog != blank
+          and section.settings.show_view_all
+          and section.settings.post_limit < section.settings.blog.articles_count
+        -%}
+          <a
+            href="{{ section.settings.blog.url }}"
+            class="link underlined-link large-up-hide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          >
+            {{ 'sections.featured_blog.view_all' | t }}
+          </a>
+        {%- endif -%}
       
 
     {%- if section.settings.show_view_all and section.settings.post_limit < section.settings.blog.articles_count -%}
