@@ -61,21 +61,17 @@ color: #181818;
 
     {% if blog.all_tags %}
 
-    {{ blog.tags }}
-
 
     <ul class="tags">
      {% for tag in blog.all_tags %}
-
-       {{ tag | handleize }}
-
 
             <li>
               <a href="{{ blog.url }}/tagged/{{ tag | handleize }}">
               {{ tag }}
               </a>
             </li>
-            {% endfor %}
+
+      {% endfor %}
 
             </ul>
   {% endif %}
