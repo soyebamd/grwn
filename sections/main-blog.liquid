@@ -61,22 +61,17 @@ color: #181818;
 
     {% if blog.all_tags %}
 
-      {%  assign blogHandle = blog.handle.tag  %}
+    
 
-      {{ blogHandle == tag }}
+      {% for tag in article.tags %}
+  {% assign currentTag = tag %}
+{% endfor %}
+
+
 
     <ul class="tags">
      {% for tag in blog.all_tags %}
-
-       {{ blogHandle == tag }}
-
-
-    <li    
-
-    {% if tag == blogHandle   %} class="active" {% endif %}
-      
-      
-    >
+            <li>
               <a href="{{ blog.url }}/tagged/{{ tag | handleize }}">
               {{ tag }}
               </a>
