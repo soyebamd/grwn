@@ -60,12 +60,16 @@ color: #181818;
     </h1>
 
 
-
-    {% assign tag_name = 'industry' %}
 {% assign blog_handle = blog.handle %}
-{% assign tag_url = '/blogs/' | append: blog_handle | append: '/tagged/' | append: tag_name | append: '/' %}
+{% assign tag_url = '/blogs/' | append: blog_handle | append: '/tagged/' %}
 
-<a href="{{ tag_url }}">Tagged: {{ tag_name }}</a>
+{% if current_tags.size > 0 %}
+  {% for tag in current_tags %}
+    {% assign tag_url = tag_url | append: tag | append: '/' %}
+  {% endfor %}
+{% endif %}
+
+<a href="{{ tag_url }}">Tagged: {{ current_tags | join: ', ' }}</a>
 
 
 
