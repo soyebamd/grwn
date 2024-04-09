@@ -46,7 +46,7 @@ color: #181818;
 }
 
 .tags li.active a {
-  border-color: #181818;
+  border-color: #5930d2;
 }
 
 {%- endstyle -%}
@@ -68,9 +68,6 @@ color: #181818;
     {% assign tag_url = tag_url | append: tag | append: '/' %}
   {% endfor %}
 {% endif %}
-
-<a href="{{ tag_url }}">Tagged: {{ current_tags | handle }}</a>
-
 
 
 
