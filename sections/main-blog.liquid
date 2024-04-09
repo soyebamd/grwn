@@ -69,7 +69,7 @@ color: #181818;
   {% endfor %}
 {% endif %}
 
-<a href="{{ tag_url }}">Tagged: {{ current_tags | handleize }}</a>
+<a href="{{ tag_url }}">Tagged: {{ current_tags | handle }}</a>
 
 
 
@@ -80,7 +80,7 @@ color: #181818;
     <ul class="tags">
      {% for tag in blog.all_tags %}
 
-     <li {% if current_tags == tag | handleize %} active {% endif %}>
+            <li>
               <a href="{{ blog.url }}/tagged/{{ tag | handleize }}">
               {{ tag }}
               </a>
