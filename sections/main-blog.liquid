@@ -80,7 +80,7 @@ color: #181818;
     <ul class="tags">
      {% for tag in blog.all_tags %}
 
-      {%  assign get_tag =   tag | handleize  %}
+      {%  assign get_tag =   tag   %}
 
              <li {% if current_tags ==  get_tag %} active {% endif %}>
               <a href="{{ blog.url }}/tagged/{{ tag | handleize }}">
