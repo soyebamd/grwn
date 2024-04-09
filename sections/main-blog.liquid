@@ -59,6 +59,17 @@ color: #181818;
       {{ blog.title | escape }}
     </h1>
 
+
+
+    {% assign tag_name = 'industry' %}
+{% assign blog_handle = blog.handle %}
+{% assign tag_url = '/blogs/' | append: blog_handle | append: '/tagged/' | append: tag_name | append: '/' %}
+
+<a href="{{ tag_url }}">Tagged: {{ tag_name }}</a>
+
+
+
+
     {% if blog.all_tags %}
 
 
