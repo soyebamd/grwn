@@ -63,13 +63,15 @@ color: #181818;
 
       {%  assign blogHandle = blog.handle  %}
 
-      {{ blogHandle }}
+      {{ blogHandle == tag }}
 
     <ul class="tags">
      {% for tag in blog.all_tags %}
-    <li
-     
-     
+
+       {{ blogHandle == tag }}
+
+
+    <li    
 
     {% if tag == blogHandle   %} class="active" {% endif %}
       
