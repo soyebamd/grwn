@@ -85,7 +85,7 @@ color: #181818;
 
       {% assign ss = tag | handleize %}
 
-     {{ss}}fff
+     {{ss}}fff==m{{ current_tags | handle }}
 
              <li {% if ss ==  current_tags %} class="active" {% endif %}>
               <a href="{{ blog.url }}/tagged/{{ tag | handleize }}">
