@@ -59,10 +59,18 @@ color: #181818;
       {{ blog.title | escape }}
     </h1>
 
+      {{ blog.tags | escape }}
+
+        {{ blog.tag | escape }}
+
+
     {% if blog.all_tags %}
 
     
-{{ blog.handle }}
+{{ blog.handle.tag }}
+
+
+{{  blog.current_tags  }}
 
 <div class="post-list">
   <div class="blog-index__post blog-index__post--small">
