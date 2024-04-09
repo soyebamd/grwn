@@ -16,6 +16,18 @@
   }
 
 .d-block{ display:block!important;  }
+
+.tags{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.tags li{ text-align:center; }
+
 {%- endstyle -%}
 
 {%- paginate blog.articles by 20 -%}
