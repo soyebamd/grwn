@@ -63,10 +63,7 @@ color: #181818;
 
     
 
-      {% for tag in article.tags %}
-  {% assign currentTag = tag %}
-  {{ currentTag }}
-{% endfor %}
+{{ blog.tagged }}
 
 
 
