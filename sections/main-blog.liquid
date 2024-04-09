@@ -28,6 +28,27 @@
 
 .tags li{ text-align:center; }
 
+.tags li a{
+  margin: 0 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #e5e5e5;
+border-color: rgb(229, 229, 229);
+font-size: 14px;
+letter-spacing: .1em;
+width: 140px;
+height: 44px;
+transition: all .4s linear;
+text-decoration: none;
+color: #181818;
+
+}
+
+.tags li.active a {
+  border-color: #181818;
+}
+
 {%- endstyle -%}
 
 {%- paginate blog.articles by 20 -%}
