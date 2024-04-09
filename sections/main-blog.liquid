@@ -59,43 +59,17 @@ color: #181818;
       {{ blog.title | escape }}
     </h1>
 
-      {{ blog.tags | escape }}
-
-        {{ blog.tag | escape }}
-
-       
-
-
-
-
-
-
-
     {% if blog.all_tags %}
 
     
-{{ blog.handle.tag }}
 
- {{ tag | handleize }}
-{{  blog.current_tags  }}
-
-<div class="post-list">
-  <div class="blog-index__post blog-index__post--small">
-    <a class="blog-index__post-image blog-index__post-image--small" {% if content.featured_image %}
-      style="background-image: url('{{ content.featured_image }}')" ; {% endif %} href="{{ content.absolute_url }}"></a>
-    <div class="blog-index__post-content blog-index__post-content--small">
-      {% for tag in content.tag_list %}
-        {% if tag.slug in request.path %}
-          <h5><a href="{{ blog_tag_url(group.id, tag.slug) }}" rel="tag">{{ tag.name }}</a></h5>
-        {% endif %}
-      {% endfor %}
-      <h2><a href="{{ content.absolute_url }}">{{ content.name|truncate(70, True, '...') }}</a></h2>
-    </div>
-  </div>
-</div>
 
     <ul class="tags">
      {% for tag in blog.all_tags %}
+
+       {{ tag | handleize }}
+
+       
             <li>
               <a href="{{ blog.url }}/tagged/{{ tag | handleize }}">
               {{ tag }}
