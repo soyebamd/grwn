@@ -97,5 +97,5 @@
 }
 
 .mega-menu__list--condensed .mega-menu__link {
-  font-weight: 900;
+  font-weight: 900 !important;
 }
