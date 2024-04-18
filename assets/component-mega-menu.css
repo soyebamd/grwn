@@ -80,6 +80,7 @@
 
 .mega-menu .mega-menu__list--condensed {
   display: flex;
+  justify-content: center;
 }
 
 .mega-menu__list--condensed .mega-menu__link {
