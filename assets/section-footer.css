@@ -25,6 +25,10 @@
     width: 100%;
   }
 
+  .footer__logo {
+    margin: 28px 0 50px;
+  }
+
   .footer-left {
     max-width: 421px;
     width: 100%;
