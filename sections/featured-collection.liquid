@@ -124,6 +124,17 @@
           {%- endfor -%}
         {%- endfor -%}
       </ul>
+
+      <div class="arrows">
+
+   
+         <img src="{{ 'arrow.svg' |  file_url }}" id="prev"  class="arrow" alt="prev">
+
+         <img src="{{ 'arrow.svg' |  file_url }}" id="next"  class="arrow" alt="next">
+     
+
+
+      </div>
     
  </div>
 
@@ -165,6 +176,9 @@
   autoplay:true,
   arrows:true,
   slidesToShow: 4,
+
+    prevArrow: $('#prev'),
+    nextArrow: $('#next')
 
   // the magic
   responsive: [{
