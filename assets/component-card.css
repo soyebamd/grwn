@@ -541,6 +541,7 @@
   z-index: 9999;
   transform: translateY(-50%);
   width: 100%;
+  left: 0;
 }
 
 .arrow {
@@ -549,7 +550,7 @@
   height: 60px;
   border-radius: 50%;
   object-fit: contain;
-  padding: 15px;
+  padding: 18px;
 }
 
 #next {
@@ -558,4 +559,5 @@
 
 #prev {
   left: 0;
+  transform: rotate(180deg);
 }
