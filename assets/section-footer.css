@@ -157,8 +157,8 @@
 
 .footer-block__details-content .list-menu__item--link {
   margin-right: 1.5rem;
-  font-family: "abc_diatype_semi-monobold";
-  font-size: 18px;
+  font-family: "abc_diatype_semi-monobold" !important;
+  font-size: 1.8rem;
 }
 
 @media screen and (min-width: 990px) {
@@ -386,7 +386,7 @@
 @media screen and (min-width: 750px) {
   .footer-block__details-content .list-menu__item--link {
     display: inline-block;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 
   .footer-block__details-content > :first-child .list-menu__item--link {
