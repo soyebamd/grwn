@@ -78,7 +78,7 @@
         aria-label="{{ 'general.slider.name' | t }}"
       >
 
-      {{ limit: section.settings.products_to_show }} :OMIT
+      {{  section.settings.products_to_show }} :LIMIT PRODUCT. 
 
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
