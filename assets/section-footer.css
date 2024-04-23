@@ -161,6 +161,12 @@
   font-size: 1.6rem;
 }
 
+@media (max-width: 1300px) {
+  .footer-right .grid--4-col-tablet .grid__item {
+    width: calc(33% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+  }
+}
+
 @media screen and (min-width: 990px) {
   .footer-block__heading {
     font-size: calc(var(--font-heading-scale) * 1.8rem);
