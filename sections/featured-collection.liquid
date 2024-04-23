@@ -173,14 +173,13 @@
   </div>
 </div>
 
-
+{% comment %} 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-{% comment %} Slick Carousel {% endcomment %}
 <script>
 
   $("#Slider-{{ section.id }}").slick({
@@ -215,7 +214,7 @@
     }]
 });
 
-</script>
+</script> {% endcomment %}
 
 {% schema %}
 {
