@@ -78,7 +78,7 @@
         aria-label="{{ 'general.slider.name' | t }}"
       >
 
-      {{  section.settings.products_to_show }} :LIMIT PRODUCT. 
+    
 
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
@@ -182,7 +182,7 @@
 
   infinite: true,
   autoplay:true,
-  slidesToShow: 4,
+  slidesToShow: {{ section.settings.products_to_show }},
 
   // the magic
   responsive: [{
