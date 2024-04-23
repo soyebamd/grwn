@@ -30,9 +30,7 @@
     padding-bottom: 3rem;
     padding-left: calc(4rem / var(--font-body-scale));
     padding-right: calc(4rem / var(--font-body-scale));
-  }
 
-  .footer__content {
     flex-direction: column !important;
   }
 }
