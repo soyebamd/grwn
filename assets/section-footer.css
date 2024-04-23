@@ -12,9 +12,12 @@
 }
 
 @media screen and (max-width: 749px) {
-  /* .footer .grid {
-    display: block;
-  } */
+  .footer__blocks-wrapper {
+    align-items: flex-end !important;
+  }
+  .footer .grid {
+    /* display: block; */
+  }
 
   .footer-block.grid__item {
     padding: 0;
