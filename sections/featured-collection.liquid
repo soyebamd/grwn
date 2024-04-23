@@ -188,7 +188,8 @@
 
   infinite: true,
   autoplay:true,
-  slidesToShow: {{ section.settings.columns_desktop }},
+  arrows:true,
+  slidesToShow: 4,
 
   // the magic
   responsive: [{
@@ -203,7 +204,7 @@
 
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: {{ section.settings.columns_mobile }}, 
         dots: true
       }
 
