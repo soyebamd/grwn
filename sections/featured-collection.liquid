@@ -77,6 +77,9 @@
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
+
+      {{ limit: section.settings.products_to_show }} :OMIT
+
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
