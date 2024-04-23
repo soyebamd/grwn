@@ -19,7 +19,7 @@
         "buttons_t8qA4E"
       ],
       "settings": {
-        "show_video": false,
+        "show_video": true,
         "banner_link": "#",
         "image_overlay_opacity": 0,
         "image_height": "large",
