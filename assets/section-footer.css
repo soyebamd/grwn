@@ -182,6 +182,7 @@
 
 .newsletter-form__field-wrapper {
   max-width: 36rem;
+  display: block;
 }
 .footer__logo {
   margin-top: 28px;
