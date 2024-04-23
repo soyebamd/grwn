@@ -524,3 +524,9 @@
   margin-bottom: 0;
   text-shadow: 3px 1px 1px #fff;
 }
+
+/* Slick Slider */
+
+.slick-initialized .slick-slide {
+  margin: 0 6px;
+}
