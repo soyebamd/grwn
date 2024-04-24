@@ -57,7 +57,7 @@
 
                         {% if collection.handle == collection_handle %}
 
-                      {{ collection.featured_image | img_url: 'small' | img_tag   }}
+                      <img src="{{ collection.featured_image }}" class="thumb">
 
 
                         {% endif %}
