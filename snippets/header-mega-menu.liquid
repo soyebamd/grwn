@@ -51,10 +51,15 @@
                       </a>
 
 
+                      {%  assign collection_handle = childlink.handle %}
 
-                      {% for collection in collections[childlink.handle] %}
+                      {% for collection in collections %}
+
+                        {% if collection.handle == collection_handle %}
 
                         {{ collection.title   }} coooooool
+
+                        {% endif %}
                        
 {% endfor %}
 
