@@ -44,8 +44,21 @@
                           aria-current="page"
                         {% endif %}
                       >
-                        {{ childlink.title | escape }} COLLECTION IMAGE
+                        {{ childlink.title | escape }} 
+
+
+
                       </a>
+
+
+
+                      {% for collection in collections['{{ childlink.title | escape }}'] %}
+
+                        {{ collection.title   }}
+                       
+{% endfor %}
+
+
                       {%- if childlink.links != blank -%}
                         <ul class="list-unstyled" role="list">
                           {%- for grandchildlink in childlink.links -%}
