@@ -59,7 +59,7 @@
 
                           {% if collection.featured_image %}
 
-                           <img src="{{ collection.featured_image | img_url: '450x450' }}" class="thumb">
+                           <img src="{{ collection.featured_image | img_url: '450x450' }}" class="thumb" alt="{{ collection.title }}">
 
                            {% else %}
 
