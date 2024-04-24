@@ -46,13 +46,13 @@
                       >
                         {{ childlink.title | escape }} 
 
-
+{{ childlink.handle | escape }}
 
                       </a>
 
 
 
-                      {% for collection in collections['{{ childlink.title | escape }}'] %}
+                      {% for collection in collections['{{ childlink.handle | escape }}'] %}
 
                         {{ collection.title   }}
                        
