@@ -57,7 +57,16 @@
 
                         {% if collection.handle == collection_handle %}
 
-                      <img src="{{ collection.featured_image | img_url: '450x450' }}" class="thumb">
+                          {% if collection.featured_image %}
+
+                           <img src="{{ collection.featured_image | img_url: '450x450' }}" class="thumb">
+
+                           {% else %}
+
+                           <div class="empty-box"></div>
+
+
+                           {% endif %}
 
 
                         {% endif %}
