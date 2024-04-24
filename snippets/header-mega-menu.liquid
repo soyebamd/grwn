@@ -44,7 +44,7 @@
                           aria-current="page"
                         {% endif %}
                       >
-                        {{ childlink.title | escape }} --a
+                        {{ childlink.title | escape }} 
 
                               {{ childlink.handle  }}
 
@@ -52,7 +52,7 @@
 
 
 
-                      {% for collection in collections['{{ childlink.handle | escape }}'] %}
+                      {% for collection in collection[childlink.handle] %}
 
                         {{ collection.title   }}
                        
