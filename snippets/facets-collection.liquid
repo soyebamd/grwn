@@ -1,6 +1,12 @@
 
-<details   class="{% if filter_type == 'horizontal' %}disclosure-has-popup facets__disclosure{% else %} facets__disclosure-vertical{% endif %} js-filter" style="position:relative;" >
-                    <summary  class="facets__summary caption-large focus-offset">
+  <details
+                    id="Details-{{ filter.param_name | escape }}-{{ section.id }}"
+                    class="{% if filter_type == 'horizontal' %}disclosure-has-popup facets__disclosure{% else %} facets__disclosure-vertical{% endif %} js-filter"
+                    data-index="{{ forloop.index }}"
+                    {% if filter_type == 'vertical' and forloop.index == 1 %}
+                      open
+                    {% endif %}
+                  >                    <summary  class="facets__summary caption-large focus-offset">
                       <div>
                         <span class="facets__summary-label">Collections</span><svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
   <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
