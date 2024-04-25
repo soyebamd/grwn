@@ -35,12 +35,6 @@
             "collection": "earrings"
           }
         },
-        "featured_collection_AGyRnH": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "featured_collection_PEWAfW": {
           "type": "featured_collection",
           "settings": {
@@ -53,7 +47,6 @@
         "featured_collection_APf7CX",
         "featured_collection_BWHfww",
         "featured_collection_y6xY8J",
-        "featured_collection_AGyRnH",
         "featured_collection_PEWAfW"
       ],
       "settings": {
