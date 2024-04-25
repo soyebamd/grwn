@@ -31,29 +31,12 @@
 <h3>Shop All / Collection</h3>
 
 
-<ul>
-  {% for product_type in collections.types %}
-    <li>
-      {{ product_type | link_to_type }}
-    </li>
-  {% endfor %}
-</ul>
 
-sadfsada
-
-{% for product_type in shop.types %}
-
-  {{ product_type.title }}
-
-{% endfor %}
-
-
-
-{% for product in collection.types %}
+{% for product in collections.types %}
   <div class="product">
 
 
-   
+   <a href="collections/{collection-name}?filter.p.product_type={{ product.type }}" >{{ product.type }}</a>
   
     <p> <a class="link-class" href="/collections/types?q={{ product.type }}" title="{{ product.type }}"> Type: {{ product.type }} </a> </p>
   
