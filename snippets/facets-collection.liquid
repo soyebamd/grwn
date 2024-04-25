@@ -22,8 +22,6 @@
 {%- for block in section.blocks -%}
 
     {% assign collection_handle = block.settings.collection %}
-
-    
     {% assign collection = collections[collection_handle] %}
 
 
@@ -31,8 +29,6 @@
 
 
                             <li class="list-menu__item facets__item">
-
-
 
                               <label for="tag-{{ collection.handle }}" class="facets__label facet-checkbox">
 
