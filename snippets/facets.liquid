@@ -31,7 +31,25 @@
 <h3>Shop All / Collection</h3>
 
 
-{% for product in collection.products %}
+<ul>
+  {% for product_type in collections.types %}
+    <li>
+      {{ product_type | link_to_type }}
+    </li>
+  {% endfor %}
+</ul>
+
+
+
+{% for product_type in shop.types %}
+
+  {{ product_type.title }}
+
+{% endfor %}
+
+
+
+{% for product in collection.types %}
   <div class="product">
 
 
