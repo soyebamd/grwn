@@ -33,9 +33,11 @@
 
 {% for product in collection.products %}
   <div class="product">
+
+
    
   
-    <p>Type: {{ product.type }}</p>
+    <p> <a class="link-class" href="/collections/types?q={{ product.type }}" title="{{ product.type }}"> Type: {{ product.type }} </a> </p>
   
    
   </div>
