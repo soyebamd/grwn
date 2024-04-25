@@ -31,12 +31,13 @@
 <h3>Shop All / Collection</h3>
 
 
-
-{% for product in collections.types %}
+{% for product in collection.products %}
   <div class="product">
 
 
+   
    <a href="collections/{collection-name}?filter.p.product_type={{ product.type }}" >{{ product.type }}</a>
+  
   
     <p> <a class="link-class" href="/collections/types?q={{ product.type }}" title="{{ product.type }}"> Type: {{ product.type }} </a> </p>
   
