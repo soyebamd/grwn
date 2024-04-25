@@ -232,6 +232,7 @@
 .facets__disclosure[open] .facets__summary,
 .facets__summary:hover {
   color: rgb(var(--color-foreground));
+  text-decoration: none;
 }
 
 .facets__disclosure[open] .facets__display,
