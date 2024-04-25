@@ -1,1 +1,61 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":true,"color_scheme":"scheme-1"}},"product-grid":{"type":"main-collection-product-grid","blocks":{"featured_collection_d6UVpd":{"type":"featured_collection","settings":{"collection":"bracelets"}},"featured_collection_APf7CX":{"type":"featured_collection","settings":{"collection":"rings"}},"featured_collection_BWHfww":{"type":"featured_collection","settings":{"collection":"necklaces"}}},"block_order":["featured_collection_d6UVpd","featured_collection_APf7CX","featured_collection_BWHfww"],"settings":{"products_per_page":16,"columns_desktop":3,"color_scheme":"scheme-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"enable_filtering":true,"filter_type":"vertical","enable_sorting":false,"columns_mobile":"2","padding_top":36,"padding_bottom":36}}},"order":["banner","product-grid"]}
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "featured_collection_d6UVpd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets"
+          }
+        },
+        "featured_collection_APf7CX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rings"
+          }
+        },
+        "featured_collection_BWHfww": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "necklaces"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_d6UVpd",
+        "featured_collection_APf7CX",
+        "featured_collection_BWHfww"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid"
+  ]
+}
