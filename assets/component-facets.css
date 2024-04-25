@@ -220,6 +220,7 @@
   display: block;
   bottom: -2px;
   transform: translateX(-50%);
+  left: 50%;
 }
 
 .facets__disclosure fieldset {
