@@ -208,6 +208,18 @@
   font-weight: 400;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
+  position: relative;
+}
+
+.facets__summary:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 120%;
+  background: #000;
+  display: block;
+  bottom: -2px;
+  transform: translateX(-50%);
 }
 
 .facets__disclosure fieldset {
@@ -1068,7 +1080,7 @@ input.mobile-facets__checkbox {
   }
 
   .facets__disclosure-vertical {
-    border-top: 0.1rem solid rgba(var(--color-foreground), 0.1);
+    /* border-top: 0.1rem solid rgba(var(--color-foreground), 0.1); */
     margin-right: 0;
   }
 
