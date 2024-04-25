@@ -27,11 +27,11 @@
   endif
 -%}
 
+{% comment %} 
+<h3>Shop All / Collection</h3> {% endcomment %}
 
-<h3>Shop All / Collection</h3>
 
 
-{% render 'facets-collection' %}
 
 <div class="facets-container{% if filter_type == 'drawer' %} facets-container-drawer{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
   {%- if filter_type == 'vertical' or filter_type == 'horizontal' -%}
@@ -135,6 +135,13 @@
 
               {% case filter.type %}
                 {% when 'boolean', 'list' %}
+
+
+                  {% render 'facets-collection' %}
+
+                  
+
+
                   <details
                     id="Details-{{ filter.param_name | escape }}-{{ section.id }}"
                     class="{% if filter_type == 'horizontal' %}disclosure-has-popup facets__disclosure{% else %} facets__disclosure-vertical{% endif %} js-filter"
