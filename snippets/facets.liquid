@@ -29,37 +29,16 @@
 
 
 
- {%- for filter in results.filters -%}
-      {%- for value in filter.active_values -%}
-        <facet-remove>
-          <a href="{{ value.url_to_remove }}" class="active-facets__button active-facets__button--light">
-            <span class="active-facets__button-inner button button--tertiary">
-              {{ filter.label | escape }}: {{ value.label | escape }}
-              {% render 'icon-close-small' %}
-              <span class="visually-hidden">{{ 'products.facets.clear_filter' | t }}</span>
-            </span>
-          </a>
-        </facet-remove>
-      {%- endfor -%}
 
-      
 <h3>Shop All / Collection</h3>
 
 
-{% for product in collection.products %}
-  <div class="product">
 
-collections/rings?filter.v.availability=1&filter.v.price.gte=&filter.v.price.lte=&sort_by=best-selling
-   
-   <a href="/{{ collection.handle }}?filter.v.product_type={{ product.type }}" >{{ product.type }}</a>
   
   
-    <p> <a class="link-class" href="/collections/types?q={{ product.type }}" title="{{ product.type }}"> Type: {{ product.type }} </a> </p>
+    <p> <a class="link-class" href="/{{ collection.handle  }}/types?q={{ product.type }}" title="{{ product.type }}"> Type: {{ product.type }} </a> </p>
   
    
-  </div>
-{% endfor %}
-
 
 
 {% render 'facets-collection' %}
