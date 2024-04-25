@@ -33,16 +33,11 @@
 
 {% for product in collection.products %}
   <div class="product">
-    <h2>{{ product.title }}</h2>
-    <p>{{ product.description }}</p>
-    <p>Type: {{ product.type }}</p> <!-- Display product type -->
-    <a href="{{ product.url }}">Product Page</a>
-    <a href="{{ product.featured_image.src | img_url: 'medium' }}">Product Image</a>
-    <a href="{{ product.collection.url }}">Collection</a>
-    {% if product.vendor %}
-      <a href="/vendors/{{ product.vendor | handleize }}">Vendor: {{ product.vendor }}</a>
-    {% endif %}
-    <!-- Additional links can be extracted similarly -->
+  
+  
+    <p>Type: {{ product.type }}</p>
+  
+   
   </div>
 {% endfor %}
 
