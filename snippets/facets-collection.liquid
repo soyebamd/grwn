@@ -18,8 +18,13 @@
                       </div>
                     </summary>
 
+                     <div
+                      id="Facet-{{ forloop.index }}-{{ section.id }}"
+                      class="parent-display {% if filter_type == 'horizontal' %}facets__display{% else %}facets__display-vertical{% endif %}"  style="z-index:1"
+                    >
+
                     
-                    <div class="parent-display facets__display"  style="z-index:1"><fieldset class="facets-wrap parent-wrap  facets-wrap-vertical">
+                   <fieldset class="facets-wrap parent-wrap  facets-wrap-vertical">
                        
                         <ul class="facets-layout-list facets__list--vertical list-unstyled no-js-hidden" role="list">
 
