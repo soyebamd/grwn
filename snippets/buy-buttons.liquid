@@ -91,6 +91,19 @@
                 {{ 'products.product.add_to_cart' | t }}
               {%- endif -%}
             </span>
+
+
+            <span>
+
+             {%- render 'price',
+                  product: product,
+                  use_variant: true,
+                  show_badges: true,
+                  price_class: 'price--large'
+                -%}
+
+
+            </span>
             {%- render 'loading-spinner' -%}
           </button>
           {%- if show_dynamic_checkout -%}
