@@ -25,8 +25,6 @@
   assign product_form_id = 'product-form-' | append: section.id
 -%}
 
-SDAFSADFSADF
-
 {%- for value in option.values -%}
   {%- liquid
     assign option_disabled = true
@@ -103,6 +101,9 @@ SDAFSADFSADF
       {{ label_unavailable }}
     </label>
   {%- elsif picker_type == 'dropdown' or picker_type == 'swatch_dropdown' -%}
+
+    sadfsadfsda
+
     <option
       value="{{ value | escape }}"
       {% if option.selected_value == value %}
