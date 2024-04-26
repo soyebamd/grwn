@@ -259,6 +259,10 @@ a.product__text {
   color: #5930d2;
 }
 
+.product__title h1 {
+  color: #5930d2;
+}
+
 .product__description {
   font-size: 18px;
   font-style: normal;
