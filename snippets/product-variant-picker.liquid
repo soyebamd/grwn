@@ -25,7 +25,7 @@
   >
 
 
-
+  
     {%- for option in product.options_with_values -%}
       {%- liquid
         assign swatch_count = option.values | map: 'swatch' | compact | size
@@ -42,7 +42,7 @@
       {%- if picker_type == 'swatch' -%}
         <fieldset class="js product-form__input product-form__input--swatch">
           <legend class="form__label">
-           SDFSDF {{ option.name }}:
+            {{ option.name }}:
             <span data-selected-swatch-value="{{ option.name }}">
               {{- option.selected_value -}}
             </span>
