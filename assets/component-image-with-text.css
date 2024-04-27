@@ -494,3 +494,6 @@
   font-family: abc_diatype_semi-monobold;
   text-transform: uppercase;
 }
+.dropdown-details .image-with-text__text {
+  font-size: 1.8rem;
+}
