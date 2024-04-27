@@ -126,27 +126,22 @@
 
 <script>
   // JavaScript
-
-  document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     const headings = document.querySelectorAll(".image-with-text__heading");
     const texts = document.querySelectorAll(".image-with-text__text");
 
     headings.forEach((heading, index) => {
         heading.addEventListener("click", () => {
-            // Hide all text elements first
-            texts.forEach((text) => {
-                text.style.display = "none";
-            });
-
-            // Toggle the display for the clicked text element
-            if (texts[index].style.display === "block") {
-                texts[index].style.display = "none";
-            } else {
+            // Toggle the display of the corresponding text element
+            if (texts[index].style.display === "none") {
                 texts[index].style.display = "block";
+            } else {
+                texts[index].style.display = "none";
             }
         });
     });
 });
+
 
 
 
