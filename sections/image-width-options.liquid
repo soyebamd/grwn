@@ -138,13 +138,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
         heading.addEventListener("click", () => {
-            // Close all text containers
+           
             texts.forEach((text) => {
                 text.style.display = "none";
             });
+
+
             
-            // Open the relative text container
+          
             texts[index].style.display = "block";
+
+            if(texts[index].style.display == "block"){
+              this.style.display == "none";
+            }
+
+
+
         });
     });
 });
