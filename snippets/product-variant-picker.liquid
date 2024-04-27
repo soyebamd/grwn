@@ -60,9 +60,9 @@
         </fieldset>
       {%- else -%}
         <div class="product-form__input product-form__input--dropdown">
-          {% comment %} <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
+          <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
             {{ option.name }}
-          </label> {% endcomment %}
+          </label>
           <div class="select">
             {%- if picker_type == 'swatch_dropdown' -%}
               <span
@@ -79,9 +79,9 @@
               form="{{ product_form_id }}"
             >
 
-            <option value="" >
+            {% comment %} <option value="" >
    {{ option.name }}
-</option>
+</option> {% endcomment %}
 
 
               {% render 'product-variant-options',
