@@ -468,3 +468,27 @@
   margin: 0;
   color: rgba(89, 48, 210, 1);
 }
+
+.dropdown-details {
+  width: 100%;
+}
+
+.dropdown-details .image-with-text__heading {
+  margin: 0;
+  color: #000;
+  max-width: 520px !important;
+  display: inline-flex;
+  height: 42px;
+  padding: 6px 19px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100% !important;
+  border: 1px solid #ababab;
+  background: #fff;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+  font-family: abc_diatype_semi-monobold;
+  text-transform: uppercase;
+}
