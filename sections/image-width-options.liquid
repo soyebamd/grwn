@@ -138,13 +138,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
         heading.addEventListener("click", () => {
-            // Close all text containers
+           
             texts.forEach((text) => {
                 text.style.display = "none";
             });
+
+
+            
             
           
             texts[index].style.display = "block";
+
+            if (texts[index].style.display == "block") {
+
+              texts[index].style.display == "none";
+            }
+
+
+
         });
     });
 });
