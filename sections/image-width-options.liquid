@@ -131,7 +131,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const texts = document.querySelectorAll(".image-with-text__text");
 
     headings.forEach((heading, index) => {
+      texts[index].style.display = "none";
         heading.addEventListener("click", () => {
+           texts[index].style.display = "none";
             // Toggle the display of the corresponding text element
             if (texts[index].style.display === "none") {
                 texts[index].style.display = "block";
