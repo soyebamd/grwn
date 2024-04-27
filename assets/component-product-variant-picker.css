@@ -165,3 +165,14 @@ variant-selects {
   }
 }
 /* End custom styles for Swatch display type */
+
+.product-form__input .form__label {
+  position: absolute;
+  z-index: 9;
+  left: 7px;
+  top: -8px;
+  background: white;
+  width: auto;
+  transition: all 1s;
+  padding: 0 6px;
+}
