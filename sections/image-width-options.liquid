@@ -131,6 +131,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const texts = document.querySelectorAll(".image-with-text__text");
 
     headings.forEach((heading, index) => {
+
+     texts.forEach((text) => {
+                text.style.display = "none";
+            });
+
+
         heading.addEventListener("click", () => {
             // Close all text containers
             texts.forEach((text) => {
