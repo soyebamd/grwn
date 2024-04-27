@@ -77,7 +77,7 @@
             
                 {%- when 'text' -%}
 
-                  <div class="dropdown">
+                  <div class="dropdown-details">
 
                     <h2
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}  {{ block.settings.heading_content_position }} "
@@ -124,6 +124,26 @@
   </div>
 </div>
 
+<script>
+  // JavaScript
+document.addEventListener("DOMContentLoaded", function() {
+    const headings = document.querySelectorAll(".image-with-text__heading");
+    const texts = document.querySelectorAll(".image-with-text__text");
+
+    headings.forEach((heading, index) => {
+        heading.addEventListener("click", () => {
+            // Close all text containers
+            texts.forEach((text) => {
+                text.style.display = "none";
+            });
+            
+            // Open the relative text container
+            texts[index].style.display = "block";
+        });
+    });
+});
+
+</script>
 {% schema %}
 {
   "name": "Images with options",
