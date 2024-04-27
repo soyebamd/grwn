@@ -132,16 +132,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     headings.forEach((heading, index) => {
 
-     texts.forEach((text, i) => {
+     texts.forEach((text) => {
                 text.style.display = "none";
-          
+            });
 
 
         heading.addEventListener("click", () => {
 
-         // console.log(index == i);
+        console.log(index);
            
-            texts.forEach((text, i) => {
+            texts.forEach((text) => {
                 text.style.display = "none";
             });
 
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
 
 
-  });
+
         });
     });
 });
