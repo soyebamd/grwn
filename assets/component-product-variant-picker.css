@@ -165,7 +165,9 @@ variant-selects {
   }
 }
 /* End custom styles for Swatch display type */
-
+.product-form__input {
+  position: relative;
+}
 .product-form__input .form__label {
   position: absolute;
   z-index: 9;
