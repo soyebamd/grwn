@@ -139,19 +139,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
         heading.addEventListener("click", () => {
            
-            texts.forEach((text) => {
+            texts.forEach((text, i) => {
                 text.style.display = "none";
             });
 
 
             
+
+            if(i === index){
           
-            texts[index].style.display = "block";
+   
 
             if (texts[index].style.display == "block") {
 
               texts[index].style.display == "none";
             }
+
+            else{         texts[index].style.display = "block"; }
+
+          }
 
 
 
