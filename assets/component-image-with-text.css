@@ -472,6 +472,7 @@
 .dropdown-details {
   width: 100%;
   border: 1px solid #ababab;
+  padding: 6px 19px;
 }
 
 .dropdown-details .image-with-text__heading {
@@ -480,7 +481,7 @@
   max-width: 520px !important;
   display: inline-flex;
   height: 42px;
-  padding: 6px 19px;
+
   justify-content: space-between;
   align-items: center;
   width: 100% !important;
