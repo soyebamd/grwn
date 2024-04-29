@@ -475,6 +475,7 @@
   padding: 0px 19px;
   margin: 0 !important;
   border-bottom: 0;
+  background-color: #fff;
 }
 
 .dropdown-details:last-child {
@@ -539,5 +540,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  color: #000;
   margin: 0;
 }
