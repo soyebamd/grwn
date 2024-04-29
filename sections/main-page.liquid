@@ -21,7 +21,7 @@
 <nav>
   <ul>
     {% assign menu_items = section.settings.menu %}
-    {% for link in linklists.menu_items.links %}
+    {% for link in section.settings.menu_items.links %}
       <li><a href="{{ link.url }}">{{ link.title }}</a></li>
     {% endfor %}
   </ul>
