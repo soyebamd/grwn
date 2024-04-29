@@ -505,6 +505,13 @@
   font-size: 1.8rem;
 }
 
+.dropdown-icon {
+  transition: all 600ms;
+}
 .dropdown-icon svg {
   width: 13px;
+}
+
+.active .dropdown-icon {
+  transform: rotate(180deg);
 }
