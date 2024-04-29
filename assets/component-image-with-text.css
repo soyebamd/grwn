@@ -477,6 +477,10 @@
   border-bottom: 0;
 }
 
+.dropdown-details:last-child {
+  border-bottom: 1px solid #ababab;
+}
+
 .dropdown-details .image-with-text__heading {
   margin: 0;
   color: #000;
