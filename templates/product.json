@@ -84,7 +84,7 @@
         "text_MBfTVk": {
           "type": "text",
           "settings": {
-            "heading": "Image with text",
+            "heading": "View Details",
             "heading_content_position": "left",
             "heading_size": "h1",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -95,7 +95,7 @@
         "text_QGGmWw": {
           "type": "text",
           "settings": {
-            "heading": "Image with text2",
+            "heading": "Size Guide",
             "heading_content_position": "left",
             "heading_size": "h1",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -106,7 +106,7 @@
         "text_mXmCHQ": {
           "type": "text",
           "settings": {
-            "heading": "Image with text",
+            "heading": "SHIPPING & RETURN",
             "heading_content_position": "left",
             "heading_size": "h1",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
