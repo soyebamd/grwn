@@ -18,7 +18,8 @@
 <div class="page-menu"> 
   
 <ul>
-{% for link in linklists.main-menu.links %}
+  {% asseing menu = section.settings.menu %}
+{% for link in linklists['menu'].links %}
   <li><a href= "{{ link.url }}">{{ link.title }}</a></li>
 {% endfor %}
 </ul>
@@ -44,6 +45,12 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+     {
+      "type": "link_list",
+      "id": "menu",
+      "default": "main-menu",
+      "label": "t:sections.header.settings.menu.label"
     },
     {
       "type": "range",
