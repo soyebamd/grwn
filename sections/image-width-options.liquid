@@ -158,10 +158,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
         heading.addEventListener("click", () => {
 
+            heading.classList.remove('active');
+
        texts.forEach((content, i)=>{
       content.style.display = 'none'; 
 
             console.log(index == i);
+
+         
 
       if(index == i){
 
