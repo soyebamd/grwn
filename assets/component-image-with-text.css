@@ -522,6 +522,7 @@
 }
 
 .custom-text-container {
+  max-width: 578px;
 }
 
 .custom-text-container h3 {
