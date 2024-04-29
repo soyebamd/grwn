@@ -161,13 +161,13 @@ document.addEventListener("DOMContentLoaded", function() {
        texts.forEach((content, i)=>{
       content.style.display = 'none'; 
 
-      console.log(index == i);
+      heading.classList.remove('active');
 
       if(index == i){
         heading[i].classList.add('active');
       }
 
-      else {   heading.classList.remove('active'); }
+     
 
     })
                 
