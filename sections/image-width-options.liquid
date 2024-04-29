@@ -161,7 +161,9 @@ document.addEventListener("DOMContentLoaded", function() {
        texts.forEach((content, i)=>{
       content.style.display = 'none'; 
 
-      if(index === i){
+      console.log(index == i);
+
+      if(index == i){
         heading.classList.add('active');
       }
 
