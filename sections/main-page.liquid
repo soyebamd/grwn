@@ -18,8 +18,8 @@
 <div class="page-menu"> 
   
 <ul>
-  {% asseing menu = section.settings.menu %}
-{% for link in linklists['menu'].links %}
+  {% assign menu = section.settings.menu %}
+{% for link in linklist['menu'].links %}
   <li><a href= "{{ link.url }}">{{ link.title }}</a></li>
 {% endfor %}
 </ul>
