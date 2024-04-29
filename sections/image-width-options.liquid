@@ -158,7 +158,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
         heading.addEventListener("click", () => {
 
-            heading.classList.remove('active');
+            headings.forEach(h => {
+                h.classList.remove('active');
+            });
 
        texts.forEach((content, i)=>{
       content.style.display = 'none'; 
@@ -172,10 +174,7 @@ document.addEventListener("DOMContentLoaded", function() {
         heading.classList.add('active');
       }
 
-      else{
-         heading.classList.remove('active');
-      }
-
+    
      
 
     })
