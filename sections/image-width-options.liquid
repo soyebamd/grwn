@@ -80,9 +80,9 @@
                   <div class="dropdown-details">
 
 
-                  <div class="d-flex align-items-center">
+                  
                     <h2
-                    class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}  {{ block.settings.heading_content_position }} "
+                    class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}  {{ block.settings.heading_content_position }} d-flex align-items-center "
                     {{ block.shopify_attributes }}
                   >
                   
@@ -92,17 +92,19 @@
 
                      {{ block.settings.heading }} 
 
+
+                     
+                  <div class="dropdown-icon">
+                   {% render 'icon-caret-2' %}
+                   </div>
+
                     
 
 
                   </h2> 
 
-                  <div class="dropdown-icon">
-                   {% render 'icon-caret-2' %}
-                   </div>
 
-                   </div>
-
+                 
 
 
 
