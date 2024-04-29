@@ -84,7 +84,7 @@
         "text_MBfTVk": {
           "type": "text",
           "settings": {
-            "heading": "Image with text",
+            "heading": "View Details",
             "heading_content_position": "left",
             "heading_size": "h1",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -95,7 +95,7 @@
         "text_QGGmWw": {
           "type": "text",
           "settings": {
-            "heading": "Image with text2",
+            "heading": "Size Guide",
             "heading_content_position": "left",
             "heading_size": "h1",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -106,7 +106,7 @@
         "text_mXmCHQ": {
           "type": "text",
           "settings": {
-            "heading": "Image with text",
+            "heading": "SHIPPING & RETURN",
             "heading_content_position": "left",
             "heading_size": "h1",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -122,7 +122,7 @@
       ],
       "settings": {
         "custom_width": false,
-        "section_heading": "<p>THE GUIDE TO DIAMONDS<\/p>",
+        "section_heading": "THE GUIDE TO DIAMONDS",
         "section_content": "<p>At GRWN®, nearly 2,300 of the world’s most talented artisans craft ourdiamonds. Leading the industry, GRWN® offers a triple excellent cut onall round brilliant diamonds. As a result, only the most expertly crafteddiamonds earn the right to be placed in the box<\/p>",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -130,8 +130,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-3ad559c7-cc04-4543-8d6b-30a381bd371c",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
