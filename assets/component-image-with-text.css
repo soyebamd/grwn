@@ -473,6 +473,8 @@
   width: 100%;
   border: 1px solid #ababab;
   padding: 6px 19px;
+  margin: 0 !important;
+  border-bottom: 0;
 }
 
 .dropdown-details .image-with-text__heading {
