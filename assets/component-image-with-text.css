@@ -531,6 +531,7 @@
   font-style: normal;
   font-weight: 900;
   line-height: normal;
+  margin: 0;
 }
 
 .custom-text-container p {
@@ -538,4 +539,5 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0;
 }
