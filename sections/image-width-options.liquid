@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const headings = document.querySelectorAll(".image-with-text__heading");
     const texts = document.querySelectorAll(".image-with-text__text");
 
-    texts.forEach(content=>{
+    texts.forEach((content, i)=>{
       content.style.display = 'none'; 
     })
 
