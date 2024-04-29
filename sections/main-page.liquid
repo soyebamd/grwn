@@ -17,12 +17,16 @@
 
 <div class="page-menu"> 
   
-<ul>
-  {% assign menu_items = section.settings.menu %}
-{% for link in linklists.menu_items.links %}
-  <li><a href= "{{ link.url }}">{{ link.title }}</a></li>
-{% endfor %}
-</ul>
+<!-- In your theme's header or wherever you want to display the menu -->
+<nav>
+  <ul>
+    {% assign menu_items = section.settings.menu %}
+    {% for link in linklists.menu_items.links %}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+
 
 
 </div>
