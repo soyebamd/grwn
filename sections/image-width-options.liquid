@@ -156,12 +156,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
         heading.addEventListener("click", () => {
 
-      
+       texts.forEach((content, i)=>{
+      content.style.display = 'none'; 
+    })
                 
             
             
           
             texts[index].style.display = "block";
+
+            
 
            
 
