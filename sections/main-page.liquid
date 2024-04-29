@@ -15,7 +15,16 @@
 {%- endstyle -%}
 
 
-<div class="page-menu"> Page Menu </div>
+<div class="page-menu"> 
+  
+<ul>
+{% for link in linklists.main-menu.links %}
+  <li><a href= "{{ link.url }}">{{ link.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+</div>
 
 <div class="main-page page-width page-width--narrow section-{{ section.id }}-padding">
   <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
