@@ -58,6 +58,27 @@
               }}
             {%- else -%}
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+
+
+
+              {% else %}
+
+  {%- if section.settings.section_heading != blank -%}
+
+
+   <h3> {{ section.settings.section_heading  }} </h3>
+
+    {% endif %}
+
+
+     {%- if section.settings.section_content != blank -%}
+
+        {{ section.settings.section_content  }} 
+
+    {% endif %}
+
+
+
             {%- endif -%}
           </div>
         </div>
@@ -216,6 +237,27 @@ document.addEventListener("DOMContentLoaded", function() {
           "default": true,
           "label": "Custom Width"
         },
+
+
+
+ {
+          "type": "richtext",
+          "id": "section_heading",
+          "default": "<p>Heading</p>",
+          "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+        },
+
+
+         {
+          "type": "richtext",
+          "id": "section_content",
+          "default": "<p>Content...</p>",
+          "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+        },
+
+
+
+
     {
       "type": "select",
       "id": "height",
