@@ -516,5 +516,7 @@
   transform: rotate(180deg);
 }
 
-.remove-image-bg {
+.remove-image-bg .global-media-settings:after,
+.remove-image-bg .image-with-text .grid__item:after {
+  display: none;
 }
