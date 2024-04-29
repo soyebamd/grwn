@@ -527,7 +527,7 @@
 }
 
 .custom-text-container h3 {
-  color: #5a30d2;
+  color: #5a30d2 !important;
   font-size: 18px;
   font-style: normal;
   font-weight: 900;
