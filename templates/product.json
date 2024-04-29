@@ -121,7 +121,7 @@
         "text_mXmCHQ"
       ],
       "settings": {
-        "custom_width": true,
+        "custom_width": false,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -169,6 +169,7 @@
         "text_Q8QpJx",
         "button_FFgzCd"
       ],
+      "disabled": true,
       "settings": {
         "custom_width": true,
         "height": "adapt",
