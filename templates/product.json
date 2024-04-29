@@ -122,6 +122,8 @@
       ],
       "settings": {
         "custom_width": false,
+        "section_heading": "<p>Headingd<\/p>",
+        "section_content": "<p>Content...ddddd<\/p>",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
