@@ -520,3 +520,21 @@
 .remove-image-bg .image-with-text .grid__item:after {
   display: none;
 }
+
+.custom-text-container {
+}
+
+.custom-text-container h3 {
+  color: #5a30d2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.custom-text-container p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
