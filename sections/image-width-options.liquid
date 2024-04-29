@@ -160,12 +160,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
        texts.forEach((content, i)=>{
       content.style.display = 'none'; 
+
+      if(index === i){
+        heading[index].classList.add('active');
+      }
+
+      else {   heading.classList.remove('active'); }
+
     })
                 
             
             
           
             texts[index].style.display = "block";
+
+
 
             
 
