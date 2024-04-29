@@ -20,8 +20,12 @@
 <!-- In your theme's header or wherever you want to display the menu -->
 <nav>
   <ul>
-    {% assign menu_items = section.settings.menu %}
-    {% for link in section.settings.menu_items.links %}
+  
+   
+    
+     {%- for link in section.settings.menu.links -%}
+
+
       <li><a href="{{ link.url }}">{{ link.title }}</a></li>
     {% endfor %}
   </ul>
