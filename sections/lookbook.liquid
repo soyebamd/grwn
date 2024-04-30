@@ -183,7 +183,8 @@
   </div>
 </div>
 
-  {%- for article in blog.articles -%}
+   {% for article in blogs['lookbook'].articles %}
+
  {%- render 'article-card-blog',
             article: article,
             media_height: section.settings.image_height,
