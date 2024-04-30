@@ -29,6 +29,9 @@
 
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+
+        {{ section.settings.blog }}
+
      {% for article in blogs['lookbook'].articles %}
         <div
           class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -63,6 +66,11 @@
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"
+    },
+     {
+      "type": "blog",
+      "id": "blog",
+      "label": "t:sections.featured-blog.settings.blog.label"
     },
     {
       "type": "select",
