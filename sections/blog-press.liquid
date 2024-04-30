@@ -43,7 +43,13 @@
     
      {%- for link in section.settings.menu.links -%}
 
+<span
+                  {%- if link.child_active %}
+                    class="header__active-menu-item"
+                  {% endif %}
+                >
 
+                sadf</span>
       <li {% if  link.handle == page.handle  %} class="active" {% endif %}><a href="{{ link.url }}">{{ link.title }}</a></li>
     {% endfor %}
   </ul>
