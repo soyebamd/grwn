@@ -18,7 +18,7 @@
 .d-block{ display:block!important;  }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 20 -%}
+
   <div class="main-blog page-width section-{{ section.id }}-padding" id="main-blog">
 
   
@@ -54,7 +54,7 @@
       {%- render 'pagination', paginate: paginate -%}
     {%- endif -%}
   </div>
-{%- endpaginate -%}
+
 
 
 {% schema %}
