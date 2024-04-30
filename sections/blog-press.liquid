@@ -1,6 +1,6 @@
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'section-main-page.css' | asset_url | stylesheet_tag }}
+
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
 
@@ -47,7 +47,7 @@
 
 </div>
 
-  <div class="main-blog page-width section-{{ section.id }}-padding" id="main-blog">
+  <div class="main-page page-width page-width--narrow" id="main-blog">
 
   
     <h1 class="text-center blog-title title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
