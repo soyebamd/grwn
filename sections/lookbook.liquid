@@ -183,6 +183,7 @@
   </div>
 </div>
 
+
    {% for article in blogs['lookbook'].articles %}
 
  {%- render 'article-card-blog',
@@ -196,6 +197,46 @@
           -%}
 
           {% endfor %}
+
+
+          {%- paginate blog.articles by 20 -%}
+  <div class="main-blog page-width section-{{ section.id }}-padding" id="main-blog">
+
+  
+    <h1 class="text-center blog-title title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      {{ blog.title | escape }}
+    </h1>
+
+
+
+    <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+       {% for article in blogs['lookbook'].articles %}
+        <div
+          class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          {% if settings.animations_reveal_on_scroll %}
+            data-cascade
+            style="--animation-order: {{ forloop.index }};"
+          {% endif %}
+        >
+          {%- render 'article-card-blog',
+            article: article,
+            media_height: section.settings.image_height,
+            media_aspect_ratio: article.image.aspect_ratio,
+            show_image: section.settings.show_image,
+            show_date: section.settings.show_date,
+            show_author: section.settings.show_author,
+            show_excerpt: false
+          -%}
+        </div>
+      {%- endfor -%}
+    </div>
+
+    {%- if paginate.pages > 1 -%}
+      {%- render 'pagination', paginate: paginate -%}
+    {%- endif -%}
+  </div>
+{%- endpaginate -%}
+
 
 
 
