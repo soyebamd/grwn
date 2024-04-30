@@ -30,7 +30,7 @@
       "settings": {
         "heading": "LookBook",
         "heading_size": "h1",
-        "blog": "lookbook",
+        "blog": "blog",
         "post_limit": 8,
         "columns_desktop": 4,
         "color_scheme": "",
