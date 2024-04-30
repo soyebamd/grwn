@@ -28,7 +28,6 @@
     },
     "lookbook_eWVUtr": {
       "type": "lookbook",
-      "disabled": true,
       "settings": {
         "heading": "LookBook",
         "heading_size": "h1",
@@ -46,10 +45,11 @@
     },
     "featured_blog_tNUFLe": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",
-        "blog": "blog",
+        "blog": "lookbook",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "",
