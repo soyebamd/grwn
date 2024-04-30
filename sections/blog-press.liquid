@@ -38,6 +38,10 @@
 <nav>
   <ul>
     {%- for link in section.settings.menu.links -%}
+
+{{ link.handle  }} == {{ page.handle   }}
+
+
       <li {% if link.handle == page.handle %} class="active" {% endif %}>
         <a href="{{ link.url }}">{{ link.title }}</a>
       </li>
