@@ -24,6 +24,10 @@
     assign posts_displayed = section.settings.post_limit
   endif
 -%}
+
+
+convert it to lookbook blog
+
 <div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
@@ -68,7 +72,7 @@
                 style="--animation-order: {{ forloop.index }};"
               {% endif %}
             >
-              {% render 'article-card',
+              {% render 'article-card-blog',
                 blog: section.settings.blog,
                 article: article,
                 media_aspect_ratio: 1.66,
