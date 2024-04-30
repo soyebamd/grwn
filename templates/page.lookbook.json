@@ -65,6 +65,7 @@
     "blog_press_KU7gwz": {
       "type": "blog-press",
       "settings": {
+        "blog": "blog",
         "layout": "grid",
         "show_image": true,
         "image_height": "medium",
