@@ -44,7 +44,7 @@
      {%- for link in section.settings.menu.links -%}
 
 
-      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      <li {% if  link.handle == page.handle  %} class="active" {% endif %}><a href="{{ link.url }}">{{ link.title }}</a></li>
     {% endfor %}
   </ul>
 </nav>
