@@ -29,30 +29,9 @@
 
 <div class="main-page-wrapper d-flex section-{{ section.id }}-padding">
 
-
-<div class="page-menu"> 
-  
-<!-- In your theme's header or wherever you want to display the menu -->
+{%  render 'page-menu' %}
 
 
-<nav>
-  <ul>
-    {%- for link in section.settings.menu.links -%}
-
-{{ link.handle  }} == {{ page.handle   }}
-
-
-      <li {% if link.handle == page.handle %} class="active" {% endif %}>
-        <a href="{{ link.url }}">{{ link.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
-
-
-
-
-</div>
 
   <div class="main-page page-width page-width--narrow" id="main-blog">
 
