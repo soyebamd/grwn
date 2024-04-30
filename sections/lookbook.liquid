@@ -183,7 +183,7 @@
   </div>
 </div>
 
-
+  {%- for article in blog.articles -%}
  {%- render 'article-card-blog',
             article: article,
             media_height: section.settings.image_height,
@@ -194,7 +194,9 @@
             show_excerpt: false
           -%}
 
-          
+          {% endfor %}
+
+
 
 {% schema %}
 {
