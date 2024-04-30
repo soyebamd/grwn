@@ -45,7 +45,6 @@
     },
     "featured_blog_tNUFLe": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",
