@@ -73,7 +73,33 @@
 
 {% else %}
 
-default image
+<div
+  class="custom-collection-banner"
+  {%- if section.settings.show_collection_image and collection.image -%}style="background-image:url('{{ collection.image | image_url}}' )"{%- endif -%}>
+
+
+  {%- if section.settings.logo -%}
+
+    <img src="{{ section.settings.logo |  img_url: 'master' }}"  class="banner-logo">
+
+  {%- endif -%}
+
+  <h1
+    class="collection-hero__title">
+    <span
+      class="visually-hidden">{{ 'sections.collection_template.title' | t }}:
+    </span>
+    {{- collection.title | escape -}}
+  </h1>
+
+
+  {%- if section.settings.show_collection_description -%}
+    <div
+      class="collection-hero__description rte">{{ collection.description }}</div>
+  {%- endif -%}
+
+  
+</div>
 
 {% endif %}
 
