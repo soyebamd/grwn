@@ -60,7 +60,7 @@
 
 
 
-  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %} d-grid page-width justify-content-between collection-custom-pr-grid">
+  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %} d-grid page-width justify-content-between">
 
 
 
@@ -69,7 +69,7 @@
 
 
 
-    <div class="collection__title title-wrapper title-wrapper--no-top-margin {% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
+    <div class=" collection-custom-pr-grid collection__title title-wrapper title-wrapper--no-top-margin {% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
      
       {%- if section.settings.description != blank
         or section.settings.show_description
