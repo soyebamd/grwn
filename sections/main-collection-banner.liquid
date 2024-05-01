@@ -42,7 +42,7 @@
     font-size: 24px;
   }
 </style>
-{%- if section.settings.show_collection_image %}
+{%- if section.settings.show_collection_image and collection.image %}
 <div
   class="custom-collection-banner"
   {%- if section.settings.show_collection_image and collection.image -%}style="background-image:url('{{ collection.image | image_url}}' )"{%- endif -%}>
