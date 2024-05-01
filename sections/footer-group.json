@@ -8,29 +8,29 @@
         "link_list_KMME6H": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "main-menu"
+            "heading": "SHOP",
+            "menu": "shop"
           }
         },
         "link_list_jEFYMi": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "main-menu"
+            "heading": "GRWN",
+            "menu": "grwn"
           }
         },
         "link_list_EKPAxr": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "main-menu"
+            "heading": "LEARN",
+            "menu": "learn"
           }
         },
         "link_list_LDan9P": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "main-menu"
+            "heading": "Support",
+            "menu": "support"
           }
         }
       },
