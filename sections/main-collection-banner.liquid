@@ -42,7 +42,7 @@
     font-size: 24px;
   }
 </style>
-
+{%- if section.settings.show_collection_image %}
 <div
   class="custom-collection-banner"
   {%- if section.settings.show_collection_image and collection.image -%}style="background-image:url('{{ collection.image | image_url}}' )"{%- endif -%}>
@@ -67,8 +67,15 @@
     <div
       class="collection-hero__description rte">{{ collection.description }}</div>
   {%- endif -%}
+
+  
 </div>
 
+{% else %}
+
+default image
+
+{% endif %}
 
 {% schema %}
   {
