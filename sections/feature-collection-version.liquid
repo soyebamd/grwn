@@ -91,7 +91,7 @@ background: linear-gradient(360deg, rgba(89,48,210,1) 0%, rgba(255,255,255,1) 10
       {%- endif -%}
 
        {%- if section.settings.title != blank -%}
-        <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} mt-0">
           {{ section.settings.title }}
         </h2>
       {%- endif -%}
