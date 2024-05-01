@@ -26,6 +26,13 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+
+  .collection-custom-pr-grid{
+    background:#D9D9D9;
+    padding:50px;
+  }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -53,7 +60,7 @@
 
 
 
-  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %} d-grid page-width justify-content-between">
+  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %} d-grid page-width justify-content-between collection-custom-pr-grid">
 
 
 
