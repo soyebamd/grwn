@@ -63,9 +63,9 @@
     "feature_collection_version_ke6fg8": {
       "type": "feature-collection-version",
       "settings": {
-        "title": "Featured collection",
+        "title": "Dapibus nisi tristique feugiat. Nam id dolor nunc.",
         "heading_size": "h1",
-        "description": "<p>sfsadfsfsadfdsafsa<\/p>",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nisi <br\/>dapibus nisi tristique feugiat. Nam id dolor nunc. Morbi vitae dolor <br\/>eget nulla tristique iaculis ac vel nisi. Phasellus at molestie orci. <br\/>Etiam suscipit ex sit amet diam molestie bibendum nec eu velit. Aliquam <br\/>vel mattis felis. Lorem ipsum dolor sit amet, <\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "grwn-by",
