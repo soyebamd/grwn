@@ -65,7 +65,21 @@ background: linear-gradient(360deg, rgba(89,48,210,1) 0%, rgba(255,255,255,1) 10
 
 
 
-  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %} d-flex gap-16 page-width justify-content-between">
+  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %} d-flex gap-16  page-width justify-content-between
+    
+    {% if section.settings.column_adjustment == 'reverse' %}
+
+        flex-row-reverse
+
+        
+
+
+    {% endif %}
+    
+    
+    
+    
+    ">
 
 
 
@@ -245,6 +259,25 @@ background: linear-gradient(360deg, rgba(89,48,210,1) 0%, rgba(255,255,255,1) 10
       "label": "t:sections.featured-collection.settings.show_description.label",
       "default": false
     },
+     {
+      "type": "select",
+      "id": "column_adjustment",
+      "label": "Adjust column flow",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "reverse",
+          "label": "Reverse Column"
+        }
+       
+      ],
+      "default": "default"
+    },
+
+
     {
       "type": "select",
       "id": "description_style",
