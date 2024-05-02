@@ -29,32 +29,30 @@
       "blocks": {
         "featured_collection_d6UVpd": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "bracelets"
           }
         },
         "featured_collection_APf7CX": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "rings"
           }
         },
         "featured_collection_BWHfww": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "necklaces"
           }
         },
         "featured_collection_y6xY8J": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "earrings"
-          }
-        },
-        "featured_collection_inLNhK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bracelets"
           }
         }
       },
@@ -62,8 +60,7 @@
         "featured_collection_d6UVpd",
         "featured_collection_APf7CX",
         "featured_collection_BWHfww",
-        "featured_collection_y6xY8J",
-        "featured_collection_inLNhK"
+        "featured_collection_y6xY8J"
       ],
       "settings": {
         "products_per_page": 24,
