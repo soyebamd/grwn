@@ -1,5 +1,13 @@
 {
   "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "scheme-1"
+      }
+    },
     "17146293999e1c029e": {
       "type": "apps",
       "blocks": {
@@ -14,14 +22,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": true,
-        "color_scheme": "scheme-1"
       }
     },
     "product-grid": {
@@ -114,8 +114,8 @@
     }
   },
   "order": [
-    "17146293999e1c029e",
     "banner",
+    "17146293999e1c029e",
     "product-grid",
     "feature_collection_version_ke6fg8"
   ]
