@@ -29,21 +29,18 @@
       "blocks": {
         "featured_collection_d6UVpd": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "bracelets"
           }
         },
         "featured_collection_APf7CX": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "rings"
           }
         },
         "featured_collection_BWHfww": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "necklaces"
           }
