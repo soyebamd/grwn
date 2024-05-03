@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "main-page-contact",
       "settings": {
         "menu": "page-menu-2",
         "padding_top": 36,
@@ -20,8 +20,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "form"
-  ]
+  "order": ["main", "form"]
 }
