@@ -168,7 +168,7 @@ variant-selects {
 .product-form__input {
   position: relative !important;
 }
-.product-form__input .form__label {
+.product-form__input .form__label--button-style {
   position: absolute;
   z-index: 9;
   left: 7px;
