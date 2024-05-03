@@ -167,6 +167,7 @@ variant-selects {
 /* End custom styles for Swatch display type */
 .product-form__input {
   position: relative !important;
+  margin: 32px -0;
 }
 .product-form__input .form__label--button-style {
   position: absolute;
