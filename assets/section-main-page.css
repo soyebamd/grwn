@@ -25,3 +25,17 @@
 .field {
   margin: 20px 0;
 }
+
+.field.no-shadow {
+  display: flex;
+  align-items: center;
+}
+
+.field.no-shadow input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.field.no-shadow:after {
+  display: none;
+}
