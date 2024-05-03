@@ -114,7 +114,7 @@
           id="ContactForm-body"
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
-          placeholder="{{ 'templates.contact.form.comment' | t }}"
+          placeholder="Comments"
         >
           {{- form.body -}}
         </textarea>
@@ -122,9 +122,19 @@
           {{- 'templates.contact.form.comment' | t -}}
         </label>
       </div>
+
+
+    <div class="field">
+  <input type="hidden" name="properties[Send me updates on new drops and collections]" value="No">
+  <input id="subscription" required class="required" type="checkbox" name="properties[Subscription]" value="Yes">
+  <label for="subscription">Your name</label>
+    </div>
+
+
       <div class="contact__button">
         <button type="submit" class="button">
-          {{ 'templates.contact.form.send' | t }}
+         CONNECT WITH AN EXPERT
+
         </button>
       </div>
     {%- endform -%}
