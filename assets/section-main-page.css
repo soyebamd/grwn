@@ -54,6 +54,7 @@ article.contact-extra-info__box-title h3 {
 }
 .contact-extra-info__box-desc ul {
   margin: 0;
+  padding: 0 20px;
 }
 section.contact-extra-info.d-flex {
   margin: 30px 00;
