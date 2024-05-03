@@ -39,3 +39,8 @@
 .field.no-shadow:after {
   display: none;
 }
+
+article.contact-extra-info__box-title {
+  max-width: 220px;
+  width: 100%;
+}
