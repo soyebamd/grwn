@@ -57,10 +57,13 @@ article.contact-extra-info__box-title h3 {
   padding: 0 20px;
 }
 
+.contact-extra-info__box-desc ul li {
+  margin: 0 0 8px 0;
+}
+
 .contact-extra-info__box-desc ul li a {
   color: #000;
   text-decoration: none;
-  margin: 20px 0;
 }
 
 section.contact-extra-info.d-flex {
