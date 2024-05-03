@@ -8,6 +8,23 @@
         "color_scheme": "scheme-1"
       }
     },
+    "17146293999e1c029e": {
+      "type": "apps",
+      "blocks": {
+        "smart_product_filter_search_ymm_n7G6fq": {
+          "type": "shopify:\/\/apps\/smart-product-filter-search\/blocks\/YMM\/5cc1944c-3014-4a2a-af40-7d65abc0ef73",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "smart_product_filter_search_ymm_n7G6fq"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -31,6 +48,7 @@
         },
         "featured_collection_y6xY8J": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "earrings"
           }
@@ -92,6 +110,7 @@
   },
   "order": [
     "banner",
+    "17146293999e1c029e",
     "product-grid",
     "feature_collection_version_ke6fg8"
   ]
