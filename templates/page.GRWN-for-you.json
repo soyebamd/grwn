@@ -69,12 +69,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_VnV7Fk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_X4QLEq",
         "column_acLizK",
-        "column_VfP9eq"
+        "column_VfP9eq",
+        "column_VnV7Fk"
       ],
       "settings": {
         "title": "<strong>OUR SOLEIL CUTS<\/strong>",
