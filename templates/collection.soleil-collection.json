@@ -65,7 +65,7 @@
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum, mauris ut auctor suscipit, dui ante posuere neque, sed pulvinar sapien tortor a lectus. Vestibulum ut libero sed sapien vehicula venenatis non non odio. Suspendisse dignissim eleifend tincidunt. Nulla bibendum ultrices justo in feugiat. Sed interdum dapibus ipsum, quis pellentesque urna fringilla eu. Etiam ac venenatis est. Sed eros mi, pulvinar nec leo tempus, pulvinar ornare libero. Aliquam eu quam diam. Ut ornare magna non neque maximus, nec semper libero tincidunt. Sed ut pharetra nulla. Cras facilisis neque fringilla ipsum dapibus imperdiet.<\/p>",
+        "description": "",
         "show_description": false,
         "column_adjustment": "default",
         "description_style": "body",
