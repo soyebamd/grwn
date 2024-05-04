@@ -192,6 +192,7 @@
         "column_6xDx33": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19_1.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -201,15 +202,7 @@
         "column_6PWabr": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_y3CMAh": {
-          "type": "column",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19_4.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -222,8 +215,7 @@
         "column_kAMRBX",
         "column_Ce8bNN",
         "column_6xDx33",
-        "column_6PWabr",
-        "column_y3CMAh"
+        "column_6PWabr"
       ],
       "settings": {
         "title": "",
