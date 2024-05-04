@@ -96,7 +96,7 @@
         "heading_kTyrtp": {
           "type": "heading",
           "settings": {
-            "heading": "Collection Title",
+            "heading": "WE ARE GRWN",
             "heading_size": "h1"
           }
         },
@@ -131,7 +131,7 @@
         "banner_link": "shopify:\/\/collections\/featured-collection",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "bottom-right",
+        "desktop_content_position": "bottom-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-10be726e-fe68-48d6-88af-1bfd5914470a",
