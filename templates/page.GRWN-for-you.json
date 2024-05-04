@@ -1,1 +1,241 @@
-{"sections":{"main":{"type":"grwn-for-you-page","settings":{"padding_top":48,"padding_bottom":0}},"rich_text_mjbrBw":{"type":"rich-text","blocks":{"heading_rDBRRV":{"type":"heading","settings":{"heading":"THE GUIDE TO DIAMONDS","heading_size":"h1"}},"text_3VQFUy":{"type":"text","settings":{"text":"<p>At GRWN®, nearly 2,300 of the world’s most talented artisans craft ourdiamonds. Leading the industry, GRWN® offers a triple excellent cut onall round brilliant diamonds. As a result, only the most expertly crafteddiamonds earn the right to be placed in the box<\/p>"}}},"block_order":["heading_rDBRRV","text_3VQFUy"],"custom_css":[".rich-text__wrapper {max-width: 90rem !important;}",".rich-text__wrapper h2 {color: rgba(89, 48, 210, 1);}"],"settings":{"desktop_content_position":"center","content_alignment":"left","color_scheme":"scheme-5","full_width":true,"padding_top":40,"padding_bottom":52}},"image_with_text_cz9gy6":{"type":"image-with-text","blocks":{"heading_C4c6GN":{"type":"heading","settings":{"heading":"THE GUIDE TO DIAMONDS","heading_content_position":"left","heading_size":"h2"}},"text_xADGCT":{"type":"text","settings":{"text":"<p>This design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k gold<\/p>","content_position":"left","text_style":"body"}}},"block_order":["heading_C4c6GN","text_xADGCT"],"settings":{"custom_width":true,"height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"scheme-38adc6f2-26a8-465c-b0b6-662807f675bb","color_scheme":"scheme-38adc6f2-26a8-465c-b0b6-662807f675bb","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"image_with_text_pkggtm":{"type":"image-with-text","blocks":{"heading_YgrHUt":{"type":"heading","settings":{"heading":"THE GUIDE TO DIAMONDS","heading_content_position":"right","heading_size":"h2"}},"text_mccz6j":{"type":"text","settings":{"text":"<p>This design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. <\/p><p>925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it.<\/p><p>925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it.<\/p>","content_position":"right","text_style":"body"}}},"block_order":["heading_YgrHUt","text_mccz6j"],"settings":{"custom_width":true,"height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"scheme-38adc6f2-26a8-465c-b0b6-662807f675bb","color_scheme":"scheme-38adc6f2-26a8-465c-b0b6-662807f675bb","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"multicolumn_FhBMmB":{"type":"multicolumn","blocks":{"column_TWhCCW":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg","title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"column_BDgb7W":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg","title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"column_tjppDw":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg","title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"column_JQ9pJx":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg","title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}}},"block_order":["column_TWhCCW","column_BDgb7W","column_tjppDw","column_JQ9pJx"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":4,"column_alignment":"left","background_style":"primary","button_label":"","button_link":"","color_scheme":"scheme-5","columns_mobile":"1","swipe_on_mobile":false,"padding_top":100,"padding_bottom":100}},"grwn_contact_form_hnnXRr":{"type":"grwn-contact-form","settings":{"heading":"<strong>CONTACT US<\/strong>","heading_size":"h1","color_scheme":"","padding_top":36,"padding_bottom":52}}},"order":["main","rich_text_mjbrBw","image_with_text_cz9gy6","image_with_text_pkggtm","multicolumn_FhBMmB","grwn_contact_form_hnnXRr"]}
+{
+  "sections": {
+    "image_banner_BAxGNi": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_YiYkNx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Key Visual<\/strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YiYkNx"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_5.jpg",
+        "show_video": false,
+        "banner_link": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-10be726e-fe68-48d6-88af-1bfd5914470a",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "grwn-for-you-page",
+      "settings": {
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_mjbrBw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rDBRRV": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE GUIDE TO DIAMONDS",
+            "heading_size": "h1"
+          }
+        },
+        "text_3VQFUy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At GRWN®, nearly 2,300 of the world’s most talented artisans craft ourdiamonds. Leading the industry, GRWN® offers a triple excellent cut onall round brilliant diamonds. As a result, only the most expertly crafteddiamonds earn the right to be placed in the box<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rDBRRV",
+        "text_3VQFUy"
+      ],
+      "custom_css": [
+        ".rich-text__wrapper {max-width: 90rem !important;}",
+        ".rich-text__wrapper h2 {color: rgba(89, 48, 210, 1);}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_cz9gy6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_C4c6GN": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE GUIDE TO DIAMONDS",
+            "heading_content_position": "left",
+            "heading_size": "h2"
+          }
+        },
+        "text_xADGCT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k gold<\/p>",
+            "content_position": "left",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C4c6GN",
+        "text_xADGCT"
+      ],
+      "settings": {
+        "custom_width": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
+        "color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_pkggtm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YgrHUt": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE GUIDE TO DIAMONDS",
+            "heading_content_position": "right",
+            "heading_size": "h2"
+          }
+        },
+        "text_mccz6j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. <\/p><p>925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it.<\/p><p>925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it.<\/p>",
+            "content_position": "right",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YgrHUt",
+        "text_mccz6j"
+      ],
+      "settings": {
+        "custom_width": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
+        "color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_FhBMmB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TWhCCW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BDgb7W": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tjppDw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JQ9pJx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TWhCCW",
+        "column_BDgb7W",
+        "column_tjppDw",
+        "column_JQ9pJx"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "grwn_contact_form_hnnXRr": {
+      "type": "grwn-contact-form",
+      "settings": {
+        "heading": "<strong>CONTACT US<\/strong>",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner_BAxGNi",
+    "main",
+    "rich_text_mjbrBw",
+    "image_with_text_cz9gy6",
+    "image_with_text_pkggtm",
+    "multicolumn_FhBMmB",
+    "grwn_contact_form_hnnXRr"
+  ]
+}
