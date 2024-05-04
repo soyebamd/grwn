@@ -86,7 +86,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "image_with_text_3HeR86": {
@@ -95,7 +95,7 @@
         "heading_R9wTaG": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<strong>GRWN’S SOLEIL DIAMOND <\/strong>",
             "heading_content_position": "left",
             "heading_size": "h1"
           }
@@ -103,92 +103,87 @@
         "text_cgFrWa": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>The Soleil Diamonds (™) collection represents a groundbreaking fusion of classic diamond cuts, resulting in four distinct shapes renowned for their illuminating facet patterns. Inspired by a simple drawing that combined traditional shapes, our designers meticulously optimized faceting angles and proportions to maximize light return and minimize shadowing, culminating in a riveting and aesthetically pleasing design. Perfectly proportioned to enhance the inner beauty of GRWN Diamonds, Soleil offers elegance, individuality, and peace of mind, transcending the boundaries of traditional diamond procurement with its ethical and sustainable origins.<\/p>",
             "content_position": "left",
             "text_style": "body"
-          }
-        },
-        "button_WTybf4": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_R9wTaG",
-        "text_cgFrWa",
-        "button_WTybf4"
+        "text_cgFrWa"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
-        "custom_width": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
+        "image": "shopify:\/\/shop_images\/Rectangle_19.png",
+        "custom_width": false,
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-10be726e-fe68-48d6-88af-1bfd5914470a",
+        "color_scheme": "scheme-022f4742-8f0f-470f-88b3-29910694bcd6",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 48
       }
     },
-    "slideshow_hqBwND": {
-      "type": "slideshow",
+    "multicolumn_L6cBXY": {
+      "type": "multicolumn",
       "blocks": {
-        "slide_VrPjyT": {
-          "type": "slide",
+        "column_L4HwjA": {
+          "type": "column",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_7fWT8D": {
-          "type": "slide",
+        "column_MhBJMQ": {
+          "type": "column",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WegAqX": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "slide_VrPjyT",
-        "slide_7fWT8D"
+        "column_L4HwjA",
+        "column_MhBJMQ",
+        "column_WegAqX"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -197,6 +192,6 @@
     "product-grid",
     "feature_collection_version_7aFHxP",
     "image_with_text_3HeR86",
-    "slideshow_hqBwND"
+    "multicolumn_L6cBXY"
   ]
 }
