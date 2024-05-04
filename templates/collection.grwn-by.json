@@ -123,6 +123,38 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "image_with_text_CncFBg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tTBgMV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Annalisa Quote TBD",
+            "heading_content_position": "left",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tTBgMV"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+        "custom_width": false,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -130,6 +162,7 @@
     "17146293999e1c029e",
     "product-grid",
     "feature_collection_version_ke6fg8",
-    "image_banner_fWdbRc"
+    "image_banner_fWdbRc",
+    "image_with_text_CncFBg"
   ]
 }
