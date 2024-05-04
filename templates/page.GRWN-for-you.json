@@ -37,32 +37,6 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_mjbrBw": {
-      "type": "rich-text",
-      "blocks": {
-        "text_3VQFUy": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Unleash Your Unique Brilliance: Elevate your self-expression with \"GRWN For You.\" Explore our exclusive Soleil Cut™ Diamonds, tailored to your exact desires and individual style.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_3VQFUy"
-      ],
-      "custom_css": [
-        ".rich-text__wrapper {max-width: 90rem !important;}",
-        ".rich-text__wrapper h2 {color: rgba(89, 48, 210, 1);}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "scheme-5",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "image_with_text_cz9gy6": {
       "type": "image-with-text",
       "blocks": {
@@ -224,7 +198,6 @@
   "order": [
     "image_banner_BAxGNi",
     "main",
-    "rich_text_mjbrBw",
     "image_with_text_cz9gy6",
     "image_with_text_pkggtm",
     "multicolumn_FhBMmB",
