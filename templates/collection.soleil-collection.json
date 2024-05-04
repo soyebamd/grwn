@@ -115,7 +115,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_19.png",
-        "custom_width": true,
+        "custom_width": false,
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "text_first",
