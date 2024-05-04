@@ -64,10 +64,6 @@
   </h1>
 
 
-  {%- if section.settings.show_collection_description -%}
-    <div
-      class="collection-hero__description rte">{{ collection.description }}</div>
-  {%- endif -%}
 
   
 </div>
@@ -89,6 +85,10 @@
 
 
 
+  {%- if section.settings.show_collection_description -%}
+    <div
+      class="collection-hero__description rte">{{ collection.description }}</div>
+  {%- endif -%}
   
 </div>
 
