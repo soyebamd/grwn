@@ -3,7 +3,6 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "logo": "shopify:\/\/shop_images\/Rectangle_19_1.png",
         "show_collection_description": true,
         "show_collection_image": true,
         "color_scheme": "scheme-1"
