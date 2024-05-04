@@ -34,200 +34,80 @@
       "type": "grwn-for-you-page",
       "settings": {
         "padding_top": 48,
-        "padding_bottom": 0
+        "padding_bottom": 48
       }
     },
-    "rich_text_mjbrBw": {
-      "type": "rich-text",
-      "blocks": {
-        "text_3VQFUy": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Unleash Your Unique Brilliance: Elevate your self-expression with \"GRWN For You.\" Explore our exclusive Soleil Cut™ Diamonds, tailored to your exact desires and individual style.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_3VQFUy"
-      ],
-      "custom_css": [
-        ".rich-text__wrapper {max-width: 90rem !important;}",
-        ".rich-text__wrapper h2 {color: rgba(89, 48, 210, 1);}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "scheme-5",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "image_with_text_cz9gy6": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_C4c6GN": {
-          "type": "heading",
-          "settings": {
-            "heading": "THE GUIDE TO DIAMONDS",
-            "heading_content_position": "left",
-            "heading_size": "h2"
-          }
-        },
-        "text_xADGCT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k gold<\/p>",
-            "content_position": "left",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_C4c6GN",
-        "text_xADGCT"
-      ],
-      "settings": {
-        "custom_width": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
-        "color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_pkggtm": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_YgrHUt": {
-          "type": "heading",
-          "settings": {
-            "heading": "THE GUIDE TO DIAMONDS",
-            "heading_content_position": "right",
-            "heading_size": "h2"
-          }
-        },
-        "text_mccz6j": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. <\/p><p>925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it.<\/p><p>925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it. 925 sterling silver with an 18k goldThis design is characterized by the five colorful protagonist stones thatdecorate it.<\/p>",
-            "content_position": "right",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_YgrHUt",
-        "text_mccz6j"
-      ],
-      "settings": {
-        "custom_width": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
-        "color_scheme": "scheme-38adc6f2-26a8-465c-b0b6-662807f675bb",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_FhBMmB": {
+    "multicolumn_4VYGkQ": {
       "type": "multicolumn",
       "blocks": {
-        "column_TWhCCW": {
+        "column_X4QLEq": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Rectangle_19_1.png",
+            "title": "<strong>SOLEIL ROUND CUT <\/strong>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_BDgb7W": {
+        "column_acLizK": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Rectangle_19_1.jpg",
+            "title": "<strong>SOLEIL OVAL  CUT <\/strong>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_tjppDw": {
+        "column_VfP9eq": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Rectangle_19_1.png",
+            "title": "<strong>SOLEIL RECTANGULAR  CUT <\/strong>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_JQ9pJx": {
+        "column_VnV7Fk": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_8.56_1.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Rectangle_19_1.jpg",
+            "title": "<strong>SOLEIL LUMINAIR (Hexagon) CUT <\/strong>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_TWhCCW",
-        "column_BDgb7W",
-        "column_tjppDw",
-        "column_JQ9pJx"
+        "column_X4QLEq",
+        "column_acLizK",
+        "column_VfP9eq",
+        "column_VnV7Fk"
       ],
       "settings": {
-        "title": "",
+        "title": "<strong>OUR SOLEIL CUTS<\/strong>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-5",
+        "button_label": "BUILD YOUR DIAMOND",
+        "button_link": "#",
+        "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "grwn_contact_form_hnnXRr": {
-      "type": "grwn-contact-form",
-      "settings": {
-        "heading": "<strong>CONTACT US<\/strong>",
-        "heading_size": "h1",
-        "color_scheme": "",
         "padding_top": 36,
-        "padding_bottom": 52
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner_BAxGNi",
     "main",
-    "rich_text_mjbrBw",
-    "image_with_text_cz9gy6",
-    "image_with_text_pkggtm",
-    "multicolumn_FhBMmB",
-    "grwn_contact_form_hnnXRr"
+    "multicolumn_4VYGkQ"
   ]
 }
