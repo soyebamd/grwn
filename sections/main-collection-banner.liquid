@@ -43,7 +43,7 @@
     font-size: 24px;
   }
 </style>
-{%- if section.settings.show_collection_image and collection.image %}
+
 <div
   class="custom-collection-banner"
   {%- if section.settings.show_collection_image and collection.image -%}style="background-image:url('{{ collection.image | image_url}}' )"{%- endif -%}>
@@ -65,30 +65,6 @@
 
 
 
-  
-</div>
-
-{% else %}
-
-<div
-  class="custom-collection-banner"
-  style="background-image:url('https://cdn.shopify.com/s/files/1/0683/4008/9055/files/Screenshot_2024-02-14_at_10.29_1.jpg?v=1710482265' )">
-
-
-  <h1
-    class="collection-hero__title">
-    <span
-      class="visually-hidden">{{ 'sections.collection_template.title' | t }}:
-    </span>
-   All Products
-  </h1>
-
-
-
-  
-</div>
-
-{% endif %}
 
 
 
