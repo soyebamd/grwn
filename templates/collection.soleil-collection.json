@@ -133,10 +133,10 @@
         "padding_bottom": 48
       }
     },
-    "multicolumn_L6cBXY": {
-      "type": "multicolumn",
+    "grwn_multicolumn_scroller_RkPDEm": {
+      "type": "grwn-multicolumn-scroller",
       "blocks": {
-        "column_L4HwjA": {
+        "column_fRTEQz": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -145,7 +145,7 @@
             "link": ""
           }
         },
-        "column_MhBJMQ": {
+        "column_jwFfwi": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -154,7 +154,34 @@
             "link": ""
           }
         },
-        "column_WegAqX": {
+        "column_ptpFnT": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XBeqLL": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YAJKNk": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qHaiFP": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -165,9 +192,12 @@
         }
       },
       "block_order": [
-        "column_L4HwjA",
-        "column_MhBJMQ",
-        "column_WegAqX"
+        "column_fRTEQz",
+        "column_jwFfwi",
+        "column_ptpFnT",
+        "column_XBeqLL",
+        "column_YAJKNk",
+        "column_qHaiFP"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -192,6 +222,6 @@
     "product-grid",
     "feature_collection_version_7aFHxP",
     "image_with_text_3HeR86",
-    "multicolumn_L6cBXY"
+    "grwn_multicolumn_scroller_RkPDEm"
   ]
 }
