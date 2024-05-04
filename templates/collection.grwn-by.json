@@ -85,7 +85,7 @@
         "heading_size": "h1",
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nisi <br\/>dapibus nisi tristique feugiat. Nam id dolor nunc. Morbi vitae dolor <br\/>eget nulla tristique iaculis ac vel nisi. Phasellus at molestie orci. <br\/>Etiam suscipit ex sit amet diam molestie bibendum nec eu velit. Aliquam <br\/>vel mattis felis. Lorem ipsum dolor sit amet, <\/p>",
         "show_description": false,
-        "column_adjustment": "reverse",
+        "column_adjustment": "default",
         "description_style": "body",
         "collection": "grwn-by",
         "products_to_show": 4,
