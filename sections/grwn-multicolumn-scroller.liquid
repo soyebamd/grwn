@@ -1,4 +1,5 @@
-{{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
@@ -13,6 +14,21 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  
+
+
+
+#next-{{ section.id }} {
+  right: 0;
+}
+
+#prev-{{ section.id }} {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+
 {%- endstyle -%}
 
 {%- liquid
