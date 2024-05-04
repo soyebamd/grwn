@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "scheme-10be726e-fe68-48d6-88af-1bfd5914470a"
+      }
+    },
+    "17146293999e1c029e": {
+      "type": "apps",
+      "blocks": {
+        "smart_product_filter_search_ymm_n7G6fq": {
+          "type": "shopify:\/\/apps\/smart-product-filter-search\/blocks\/YMM\/5cc1944c-3014-4a2a-af40-7d65abc0ef73",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "smart_product_filter_search_ymm_n7G6fq"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "featured_collection_d6UVpd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets"
+          }
+        },
+        "featured_collection_APf7CX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rings"
+          }
+        },
+        "featured_collection_BWHfww": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "necklaces"
+          }
+        },
+        "featured_collection_y6xY8J": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "earrings"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_d6UVpd",
+        "featured_collection_APf7CX",
+        "featured_collection_BWHfww",
+        "featured_collection_y6xY8J"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "feature_collection_version_ke6fg8": {
+      "type": "feature-collection-version",
+      "settings": {
+        "title": "Alemali May",
+        "heading_size": "h1",
+        "description": "<p>Metamorphosis not only represents my journey through Streetwear and luxury design, but it also mirrors the luxury space and its journey through innovation, technology and reorientation. <\/p>",
+        "show_description": false,
+        "column_adjustment": "default",
+        "description_style": "body",
+        "collection": "grwn-by",
+        "products_to_show": 4,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_fWdbRc": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_at_10.29_1.jpg",
+        "show_video": false,
+        "banner_link": "",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_CncFBg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tTBgMV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Annalisa Quote TBD",
+            "heading_content_position": "left",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tTBgMV"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+        "custom_width": false,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "17146293999e1c029e",
+    "product-grid",
+    "feature_collection_version_ke6fg8",
+    "image_banner_fWdbRc",
+    "image_with_text_CncFBg"
+  ]
+}
