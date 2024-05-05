@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "image_banner_BAxGNi": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_YiYkNx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Key Visual<\/strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YiYkNx"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_5.jpg",
+        "show_video": false,
+        "banner_link": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-10be726e-fe68-48d6-88af-1bfd5914470a",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "grwn-for-you-page",
+      "settings": {
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "multicolumn_4VYGkQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_X4QLEq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19_1.png",
+            "title": "<strong>SOLEIL ROUND CUT <\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_acLizK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19_1.jpg",
+            "title": "<strong>SOLEIL OVAL  CUT <\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VfP9eq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19_1.png",
+            "title": "<strong>SOLEIL RECTANGULAR  CUT <\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VnV7Fk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_19_1.jpg",
+            "title": "<strong>SOLEIL LUMINAIR (Hexagon) CUT <\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_X4QLEq",
+        "column_acLizK",
+        "column_VfP9eq",
+        "column_VnV7Fk"
+      ],
+      "settings": {
+        "title": "<strong>OUR SOLEIL CUTS<\/strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "BUILD YOUR DIAMOND",
+        "button_link": "#",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_BAxGNi",
+    "main",
+    "multicolumn_4VYGkQ"
+  ]
+}
