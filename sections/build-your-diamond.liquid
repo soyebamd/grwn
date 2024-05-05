@@ -60,6 +60,8 @@ font-weight: 900;
 
   .grwn-contactForm h2{ font-size:18px; }
 
+  .field{ margin:0 20px;}
+
 /* {color: #BAA8EE;
 
 font-size: 18px;
@@ -76,7 +78,7 @@ line-height: normal; } */
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient grwn-contactForm">
-  <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
+  <div class="contact page-width section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
       <h2 class="inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
