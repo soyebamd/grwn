@@ -127,7 +127,7 @@ line-height: normal; } */
           >
           <label class="field__label" for="ContactForm-name">Full Name</label>
         </div>
-        <div class="field field--with-error">
+        <div class="field flex-column field--with-error">
           <input
             autocomplete="email"
             type="email"
@@ -160,7 +160,7 @@ line-height: normal; } */
             </small>
           {%- endif -%}
         </div>
-         <div class="field">
+         <div class="field flex-column">
         <input
           type="tel"
           id="ContactForm-phone"
@@ -193,7 +193,7 @@ line-height: normal; } */
   <div class="d-flex fields">
 
 {% comment %} DIAMOND SHAPE {% endcomment %}
-<div class="field">
+<div class="field flex-column">
     <select class="field__input field__input-select" id="diamond-shape" name="contact['Diamond Shape']" autocomplete="diamond-shape" required>
         <option value="" disabled selected hidden>DIAMOND  Shape</option>
         <option value="Round">Round</option>
@@ -208,7 +208,7 @@ line-height: normal; } */
 
 
   {% comment %} CLARITY {% endcomment %}
-<div class="field">
+<div class="field flex-column">
     <select class="field__input field__input-select" id="clarity" name="contact['Clarity']" autocomplete="clarity" required>
         <option value="" disabled selected hidden>Select Clarity</option>
         <option value="VS1/VS2">VS1/VS2</option>
@@ -232,7 +232,7 @@ line-height: normal; } */
   <div class="d-flex fields">
 
 {% comment %} DIAMOND CENTER STONE WEIGHT {% endcomment %}
-<div class="field">
+<div class="field flex-column">
     <select class="field__input field__input-select" id="center-stone-weight" name="contact['Center Stone Weight']" autocomplete="center-stone-weight" required>
         <option value="" disabled selected hidden>DIAMOND CENTER STONE WEIGHT 
 </option>
@@ -263,7 +263,7 @@ line-height: normal; } */
 
 
   {% comment %} DIAMOND SETTING {% endcomment %}
-<div class="field">
+<div class="field flex-column">
     <select class="field__input field__input-select" id="diamond-setting" name="contact['Diamond Setting']" autocomplete="diamond-setting" required>
         <option value="" disabled selected hidden>DIAMOND SETTING</option>
         <option value="18k Prong Set">18k Prong Set</option>
@@ -294,7 +294,7 @@ line-height: normal; } */
   <div class="d-flex fields">
 
 {% comment %} METAL TYPE {% endcomment %}
-<div class="field">
+<div class="field flex-column">
     <select class="field__input field__input-select" id="metal-type" name="contact['Metal Type']" autocomplete="metal-type" required>
         <option value="" disabled selected hidden> Metal Type</option>
         <option value="18k Ct Gold">18k Ct Gold</option>
@@ -308,7 +308,7 @@ line-height: normal; } */
 
 
 {% comment %} METAL COLOR {% endcomment %}
-<div class="field">
+<div class="field flex-column">
     <select class="field__input field__input-select" id="metal-color" name="contact['Metal Color']" autocomplete="metal-color" required>
         <option value="" disabled selected hidden> Metal Color</option>
         <option value="White Gold">White Gold</option>
@@ -347,7 +347,7 @@ line-height: normal; } */
 <div class="d-flex fields">
 
       {% comment %} RING SIZE {% endcomment %}
-<div class="field">
+<div class="field flex-column">
     <select class="field__input field__input-select" id="ring-size" name="contact['Ring Size']" autocomplete="ring-size" required>
         <option value="" disabled selected hidden>Select Ring Size</option>
         <option value="Michael to advise">*Michael to advise</option>
@@ -356,7 +356,7 @@ line-height: normal; } */
 
 
         {% comment %} GIRDLE ENGRAVING {% endcomment %}
-        <div class="field">
+        <div class="field flex-column">
             <select class="field__input field__input-select" id="girdle-engraving" name="contact['Girdle Engraving']" autocomplete="girdle-engraving" required>
                 <option value="" disabled selected hidden>Select Girdle Engraving</option>
                 <option value="Option 1">Option 1</option>
