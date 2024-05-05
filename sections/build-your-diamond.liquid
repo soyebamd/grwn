@@ -148,6 +148,22 @@ line-height: normal; } */
             </small>
           {%- endif -%}
         </div>
+         <div class="field">
+        <input
+          type="tel"
+          id="ContactForm-phone"
+          class="field__input"
+          autocomplete="tel"
+          name="contact[{{ 'templates.contact.form.phone' | t }}]"
+          pattern="[0-9\-]*"
+          value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+          placeholder="{{ 'templates.contact.form.phone' | t }}"
+        >
+
+        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+
+      </div>
+
       </div>
 
 
@@ -164,21 +180,28 @@ line-height: normal; } */
 
   <div class="d-flex fields">
 
-      <div class="field">
-        <input
-          type="tel"
-          id="ContactForm-phone"
-          class="field__input"
-          autocomplete="tel"
-          name="contact[{{ 'templates.contact.form.phone' | t }}]"
-          pattern="[0-9\-]*"
-          value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
-          placeholder="{{ 'templates.contact.form.phone' | t }}"
-        >
 
-        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+  {% comment %} DIAMOND SHAPE {% endcomment %}
+   <div class="field">
+          <input
+            class="field__input"
+            autocomplete="diamond-shape"
+            type="text"
+            id="diamond-shape"
+            name="contact['Diamond Shape']"
+           
+            placeholder="Diamond Shape"
+            required
+          >
+          <label class="field__label" for="diamond-shape">Diamond Shape</label>
+  </div>
 
-      </div>
+
+
+     
+
+
+
       <div class="field">
         <textarea
           rows="10"
