@@ -183,17 +183,13 @@ line-height: normal; } */
 
   {% comment %} DIAMOND SHAPE {% endcomment %}
    <div class="field">
-          <input
-            class="field__input"
-            autocomplete="diamond-shape"
-            type="text"
-            id="diamond-shape"
-            name="contact['Diamond Shape']"
-           
-            placeholder="Diamond Shape"
-            required
-          >
-          <label class="field__label" for="diamond-shape">Diamond Shape</label>
+        <select class="field__input" id="diamond-shape" name="contact['Diamond Shape']" autocomplete="diamond-shape" required>
+    <option value="" disabled selected hidden>Diamond Shape</option>
+    <option value="Oval Cut">Oval Cut</option>
+    <option value="Round Cut">Round Cut</option>
+</select>
+<label class="field__label" for="diamond-shape">Diamond Shape</label>
+
   </div>
 
 
