@@ -195,7 +195,7 @@ line-height: normal; } */
 {% comment %} DIAMOND SHAPE {% endcomment %}
 <div class="field">
     <select class="field__input field__input-select" id="diamond-shape" name="contact['Diamond Shape']" autocomplete="diamond-shape" required>
-        <option value="" disabled selected hidden>Select Shape</option>
+        <option value="" disabled selected hidden>DIAMOND  Shape</option>
         <option value="Round">Round</option>
         <option value="Oval">Oval</option>
         <option value="Stone Cut">Stone Cut</option>
@@ -234,7 +234,8 @@ line-height: normal; } */
 {% comment %} DIAMOND CENTER STONE WEIGHT {% endcomment %}
 <div class="field">
     <select class="field__input field__input-select" id="center-stone-weight" name="contact['Center Stone Weight']" autocomplete="center-stone-weight" required>
-        <option value="" disabled selected hidden>Select Weight</option>
+        <option value="" disabled selected hidden>DIAMOND CENTER STONE WEIGHT 
+</option>
         <option value="2.00+">2.00+</option>
         <option value="2.50+">2.50+</option>
         <option value="3.00+">3.00+</option>
@@ -253,6 +254,8 @@ line-height: normal; } */
         <option value="9.50+">9.50+</option>
         <option value="10.00+">10.00+</option>
     </select>
+    <small>You have the opportunity to create a diamond between 2 and 10 carats. Your Diamond will be accompanied by a GIA grading report.
+</small>
 </div>
 
 
@@ -262,7 +265,7 @@ line-height: normal; } */
   {% comment %} DIAMOND SETTING {% endcomment %}
 <div class="field">
     <select class="field__input field__input-select" id="diamond-setting" name="contact['Diamond Setting']" autocomplete="diamond-setting" required>
-        <option value="" disabled selected hidden>Select Setting</option>
+        <option value="" disabled selected hidden>DIAMOND SETTING</option>
         <option value="18k Prong Set">18k Prong Set</option>
         <option value="18k Bezel Setting">18k Bezel Setting</option>
         <option value="Unmounted / Loose stone*">Unmounted / Loose stone*</option>
@@ -293,7 +296,7 @@ line-height: normal; } */
 {% comment %} METAL TYPE {% endcomment %}
 <div class="field">
     <select class="field__input field__input-select" id="metal-type" name="contact['Metal Type']" autocomplete="metal-type" required>
-        <option value="" disabled selected hidden>Select Metal Type</option>
+        <option value="" disabled selected hidden> Metal Type</option>
         <option value="18k Ct Gold">18k Ct Gold</option>
         <option value="Platinum">Platinum</option>
         <option value="Unmounted">Unmounted</option>
@@ -307,7 +310,7 @@ line-height: normal; } */
 {% comment %} METAL COLOR {% endcomment %}
 <div class="field">
     <select class="field__input field__input-select" id="metal-color" name="contact['Metal Color']" autocomplete="metal-color" required>
-        <option value="" disabled selected hidden>Select Metal Color</option>
+        <option value="" disabled selected hidden> Metal Color</option>
         <option value="White Gold">White Gold</option>
         <option value="Yellow Gold">Yellow Gold</option>
         <option value="Rose Gold">Rose Gold</option>
@@ -343,37 +346,26 @@ line-height: normal; } */
 
 <div class="d-flex fields">
 
-{% comment %} METAL TYPE {% endcomment %}
+      {% comment %} RING SIZE {% endcomment %}
 <div class="field">
-    <select class="field__input field__input-select" id="metal-type" name="contact['Metal Type']" autocomplete="metal-type" required>
-        <option value="" disabled selected hidden>Select Metal Type</option>
-        <option value="18k Ct Gold">18k Ct Gold</option>
-        <option value="Platinum">Platinum</option>
-        <option value="Unmounted">Unmounted</option>
-        <option value="Loose stone*">Loose stone*</option>
+    <select class="field__input field__input-select" id="ring-size" name="contact['Ring Size']" autocomplete="ring-size" required>
+        <option value="" disabled selected hidden>Select Ring Size</option>
+        <option value="Michael to advise">*Michael to advise</option>
     </select>
 </div>
 
 
-
-
-
-{% comment %} GIRDLE ENGRAVING {% endcomment %}
-<div class="field">
-    <select class="field__input field__input-select" id="girdle-engraving" name="contact['Girdle Engraving']" autocomplete="girdle-engraving" required>
-        <option value="" disabled selected hidden>Select Girdle Engraving</option>
-        <option value="Option 1">Option 1</option>
-        <option value="Option 2">Option 2</option>
-        <option value="Option 3">Option 3</option>
-    </select>
-</div>
-
-
-
-
-
-
-     
+        {% comment %} GIRDLE ENGRAVING {% endcomment %}
+        <div class="field">
+            <select class="field__input field__input-select" id="girdle-engraving" name="contact['Girdle Engraving']" autocomplete="girdle-engraving" required>
+                <option value="" disabled selected hidden>Select Girdle Engraving</option>
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+            </select>
+            <small>You can inscribe a personal message on the girdle (subject to the space available) as our gift to you.
+</small>
+        </div>
 
 
 </div>
@@ -384,21 +376,6 @@ line-height: normal; } */
 
 
 
-
-      <div class="field">
-        <textarea
-          rows="10"
-          id="ContactForm-body"
-          class="text-area field__input"
-          name="contact[{{ 'templates.contact.form.comment' | t }}]"
-          placeholder="{{ 'templates.contact.form.comment' | t }}"
-        >
-          {{- form.body -}}
-        </textarea>
-        <label class="form__label field__label" for="ContactForm-body">
-          {{- 'templates.contact.form.comment' | t -}}
-        </label>
-      </div>
 
 
 
@@ -407,7 +384,8 @@ line-height: normal; } */
 
       <div class="contact__button">
         <button type="submit" class="button">
-          Submit
+         GET A QUOTE
+
         </button>
       </div>
     {%- endform -%}
