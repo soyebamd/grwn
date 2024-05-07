@@ -19,9 +19,16 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "out_of_stock_message_emBzMi": {
+      "type": "out-of-stock-message",
+      "settings": {
+        "text": "Out of stock and shipped in 4-6 weeks"
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "out_of_stock_message_emBzMi"
   ]
 }
