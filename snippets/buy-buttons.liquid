@@ -75,6 +75,22 @@
               assign quantity_rule_soldout = true
             endif
           -%}
+
+
+          
+
+{% if product.variants.size > 0 %}
+ 
+    {% for variant in product.variants %}
+    <input type="hidden" class="getVariantID" data-id="{{ variant.id }}" value="{{ variant.inventory_quantity  }}">
+    {% endfor %}
+ 
+{% else %}
+ 
+{% endif %}
+
+
+
           <button
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"

@@ -74,17 +74,6 @@
 
 
 
-{% if product.variants.size > 0 %}
- 
-    {% for variant in product.variants %}
-    <input type="hidden" class="getVariantID" data-id="{{ variant.id }}" value="{{ variant.inventory_quantity  }}">
-    {% endfor %}
- 
-{% else %}
- 
-{% endif %}
-
-
  
 
   <div class="page-width">
