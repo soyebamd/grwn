@@ -30,6 +30,10 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+
+      #stock-message{ color:red; font-size:12px; margin:5px 0;}
+
+
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
@@ -66,6 +70,20 @@
   {%- endif -%}
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
+
+
+
+
+{% if product.variants.size > 0 %}
+ 
+    {% for variant in product.variants %}
+    <input type="hidden" class="getVariantID" data-id="{{ variant.id }}" value="{{ variant.inventory_quantity  }}">
+    {% endfor %}
+ 
+{% else %}
+ 
+{% endif %}
+
 
  
 
@@ -340,6 +358,11 @@
                     </price-per-item>
                   {%- endif -%}
                 </div>
+
+
+                 <div id="stock-message"></div>
+
+
                 <div class="quantity__rules caption no-js-hidden" id="Quantity-Rules-{{ section.id }}">
                   {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
                     <span class="divider">
@@ -693,6 +716,75 @@
   </script>
   </div>
 </section>
+
+
+
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+   const traceSwatch = document.querySelectorAll('.trace_swatch');
+   const getStockValue = document.querySelector('[name="id"]');
+   const getDataValue = document.querySelectorAll('.getVariantID');
+   const getCustomMessage = document.querySelector('#oos-message');
+   let traceData;
+   const messageContainer = document.querySelector('#stock-message');
+
+
+  console.log(traceSwatch.length);
+
+   if(traceSwatch.length == 0){
+
+       const dataID = getDataValue[0];
+
+   
+
+          if (dataID.value > 0) {
+               messageContainer.textContent = "In Stock";
+            }  else {
+               messageContainer.textContent = getCustomMessage.value;
+            }
+          
+   }
+
+
+    else {
+
+    
+
+    
+   traceSwatch.forEach((swatchValue, index) => {
+      function stockMessage() {
+         messageContainer.textContent = "Loading..."
+         setTimeout(function() {
+            traceData = getDataValue[index];
+            console.log(traceData.value);
+            const dataID = getDataValue[0].getAttribute('data-id');
+            // console.log( getDataValue[0].value+"stock value");
+            if (getStockValue.value == dataID && getDataValue[0].value > 0) {
+               messageContainer.textContent = "In Stock";
+            } else if (traceData.value <= 0) {
+               messageContainer.textContent = getCustomMessage.value;
+            } else {
+               messageContainer.textContent = "In Stock"
+            }
+         }, 1000)
+      }
+      stockMessage();
+      swatchValue.addEventListener('change', stockMessage);
+   });
+
+
+    }
+
+
+    
+});
+  
+</script>
+
+         
+
+
 
 {% schema %}
 {

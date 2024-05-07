@@ -1,0 +1,27 @@
+<input type="hidden" id="oos-message" value="{{ section.settings.text }}">
+
+{% schema %}
+  {
+    "name": "Out of stock message",
+      "enabled_on": {
+    "groups": ["header"]
+  },
+    "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Welcome to our store",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        }
+    ] , "presets": [
+    {
+      "name": "Out of stock message"
+     
+    }
+  ]
+    
+  }
+{% endschema %}
+
+
+
