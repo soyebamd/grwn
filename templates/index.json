@@ -22,18 +22,10 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "text_9gEVMM": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
-        "buttons_t8qA4E",
-        "text_9gEVMM"
+        "buttons_t8qA4E"
       ],
       "settings": {
         "show_video": true,
